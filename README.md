@@ -20,12 +20,15 @@ Variant 2 questions 16–17 are missing from the supplied photos. No separate en
 
 Assignment 4 keys come from the file’s answer feedback. Past-paper keys and calculations are prepared solutions and are labeled accordingly. Four broad questions about fading/interference include review notes. Original two-answer questions remain multi-select, with exact-set grading. Matching pairs and open calculations are adapted to MCQ form.
 
+The [past-paper answer review](sources/answer-review.md) documents all 48 prepared keys, the 11 independently calculated numerical answers, and primary technical evidence. All original prompts, choices, answer indexes and source mappings are preserved. The current review could not access the original photos, so transcription fidelity remains **unverified for all 48 entries**. The 19 processed-photo records describe the initial OCR import, not a new visual verification. Variant 2 questions 16–17 and separate endterm material still require source files.
+
 ## Study behavior
 
 - Answers stay editable after an incorrect result. The displayed feedback and latest checked result update when you change your answer.
 - All questions mode shows the full bank in a compact expandable list or full cards, with search, source/topic filters, saved questions and a missed-only filter. Phone navigation stays within reach at the bottom of the screen.
 - Mocks contain 25 distinct question IDs sampled across the bank. Answers can be changed before finishing and after review. The first submitted score is preserved separately from the revised score.
 - Progress stays in this browser’s local storage. It does not sync between people or devices.
+- Explanations include evidence links and source limitations. Keyboard users can move among single-answer choices with arrow keys, Home and End; focus stays on the selected control after an update.
 
 ## Work together
 

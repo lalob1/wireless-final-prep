@@ -1,8 +1,10 @@
 # Wireless question bank transcription
 
-Processed with PaddleOCR-VL-1.6. Handwritten selections are not treated as an answer key. Personal names and student headers are omitted.
+Processed with PaddleOCR-VL-1.6 in the initial import. Handwritten selections are not an official answer key. Personal names and student headers are omitted.
 
-All 19 photos were processed. Overlapping photos are merged. Variant 2 questions 16–17 are missing from the supplied photos.
+The existing manifest records all 19 photos as processed, with overlaps merged. This review checked the 48 recorded entries against the question bank and technical evidence; the original photos were not available for comparison. **Transcription fidelity is unverified for all 48 entries.** Prompts, choices, selection instructions, original numbering and source filenames are unchanged.
+
+Variant 2 questions 16–17 remain absent. No separate endterm-labeled source or official past-paper marking scheme has been supplied. See [the answer review](answer-review.md) for evidence and limitations.
 
 ## Midterm Variant 1 · 1
 
@@ -17,7 +19,11 @@ D. Communication that works only without the Internet
 
 Choose 1 answer(s).
 
-Worked answer: B. Communication that can send information using radio waves
+Worked answer: B. Radio waves carry information without a cable between the communicating devices, so B is the example that fits. Wireless communication is not limited to satellites and does not require an Internet connection; other wireless media also exist.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IEEE 802.11: wireless LAN standards](https://www.ieee802.org/11/index.shtml).
 
 ## Midterm Variant 1 · 2
 
@@ -32,7 +38,11 @@ D. 16 bits
 
 Choose 1 answer(s).
 
-Worked answer: C. One byte contains 8 bits.
+Worked answer: C. One byte contains eight bits. A bit is a single binary digit; a byte groups eight of them. Keep the capital B in MB separate from the lowercase b in Mb when converting file sizes and transmission rates.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 1 · 3
 
@@ -47,7 +57,11 @@ D. 8
 
 Choose 1 answer(s).
 
-Worked answer: C. The OSI reference model has seven layers.
+Worked answer: C. The OSI reference model has seven layers, from Physical to Application. Do not confuse this conceptual model with common four- or five-layer presentations of the Internet protocol stack.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/).
 
 ## Midterm Variant 1 · 4
 
@@ -62,7 +76,11 @@ D. Application Layer
 
 Choose 1 answer(s).
 
-Worked answer: B. Physical Layer
+Worked answer: B. The Physical layer represents bits as signals on a medium, such as radio, copper or fibre. The Network layer handles routing; it does not define the physical signal that crosses the link.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/).
 
 ## Midterm Variant 1 · 5
 
@@ -77,7 +95,11 @@ D. Presentation Layer
 
 Choose 1 answer(s).
 
-Worked answer: C. Network Layer
+Worked answer: C. The Network layer handles logical addressing and routing between networks, which is where IP fits. The Data Link layer handles frames on a link; the Transport layer handles communication between endpoints above IP.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/).
 
 ## Midterm Variant 1 · 6
 
@@ -92,7 +114,11 @@ D. UNESCO
 
 Choose 1 answer(s).
 
-Worked answer: B. IEEE
+Worked answer: B. IEEE develops the 802.11 wireless LAN standards underlying Wi-Fi. Standard development is distinct from Wi-Fi Alliance interoperability certification. The other organizations listed do not develop the 802.11 standards.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IEEE 802.11: wireless LAN standards](https://www.ieee802.org/11/index.shtml).
 
 ## Midterm Variant 1 · 7
 
@@ -107,7 +133,11 @@ D. Mobile applications
 
 Choose 1 answer(s).
 
-Worked answer: B. Analog voice calls
+Worked answer: B. First-generation cellular systems primarily carried analog voice calls. Digital mobile communication came with 2G; high-rate Internet access and streaming belong to later developments, not the main 1G service.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Ericsson: history of mobile Internet](https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review/articles/mobile-miracles).
 
 ## Midterm Variant 1 · 8
 
@@ -122,7 +152,11 @@ D. Gateway
 
 Choose 1 answer(s).
 
-Worked answer: C. Node B
+Worked answer: C. In UMTS, the radio base station is called Node B. An RNC controls radio resources and Node Bs; BSC is the controller name used in GSM, not the UMTS base-station name.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 25.401: UTRAN architecture, definitions and clause 6](https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/18.00.00_60/ts_125401v180000p.pdf); [ETSI TR 100 053: GSM architecture, section 5.3.3](https://www.etsi.org/deliver/etsi_tr/100001_100099/100053/01.03.01_60/tr_100053v010301p.pdf).
 
 ## Midterm Variant 1 · 9
 
@@ -137,7 +171,11 @@ D. How much battery is left
 
 Choose 1 answer(s).
 
-Worked answer: B. Where the signal is located in the radio spectrum
+Worked answer: B. Frequency measures cycles per second and identifies a signal’s place in the radio spectrum. It is different from a transmission’s time slot, the number of subscribers, or a phone’s battery level.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 45.002: radio channels and TDMA, clauses 4.2–4.3](https://www.etsi.org/deliver/etsi_ts/145000_145099/145002/17.00.00_60/ts_145002v170000p.pdf).
 
 ## Midterm Variant 1 · 10
 
@@ -152,7 +190,13 @@ D. A Wi-Fi password problem
 
 Choose 1 answer(s).
 
-Worked answer: A. A is the intended answer among these choices. The wording is broad: distance and obstacle loss are usually described more precisely as path loss and shadowing; fading refers to variations in received signal strength.
+Worked answer: A. A is the closest choice. Distance mainly changes mean path loss; obstacles cause shadowing, also called shadow fading. Multipath creates further signal variations. The option groups several propagation mechanisms under a broad use of fading; the other options are unrelated.
+
+Transcription status: Unverified against original photo.
+
+Review note: Prepared key retained as the closest available choice(s). The original wording is broader than the technical distinction; instructor intent and the original photo remain unverified. See the explanation and primary evidence.
+
+Evidence: [3GPP TR 38.901: path loss, shadow fading and fast fading, clauses 7.4–7.5](https://www.etsi.org/deliver/etsi_tr/138900_138999/138901/19.03.00_60/tr_138901v190300p.pdf).
 
 ## Midterm Variant 1 · 11
 
@@ -167,7 +211,11 @@ D. Connecting a phone using a USB cable
 
 Choose 1 answer(s).
 
-Worked answer: B. Signals affecting each other when they share the wireless medium
+Worked answer: B. Unwanted radio signals can disrupt reception of a desired signal, so B fits. Sharing a medium does not always corrupt transmissions: stations may coordinate or wait for airtime. Interference concerns reception, not battery capacity or byte conversion.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Cisco mesh guide: co-channel interference and CSMA deferral](https://www.cisco.com/c/en/us/td/docs/wireless/technology/mesh/7-3/design/guide/Mesh/Mesh_chapter_0100.html).
 
 ## Midterm Variant 1 · 12
 
@@ -182,7 +230,11 @@ D. It replaces the mobile phone
 
 Choose 1 answer(s).
 
-Worked answer: A. It controls base stations
+Worked answer: A. The GSM Base Station Controller manages base stations and radio resources within the base-station subsystem. A BSC is a network control element; it does not replace the mobile handset or perform its storage functions.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ETSI TR 100 053: GSM architecture, section 5.3.3](https://www.etsi.org/deliver/etsi_tr/100001_100099/100053/01.03.01_60/tr_100053v010301p.pdf).
 
 ## Midterm Variant 1 · 13
 
@@ -197,7 +249,11 @@ D. UE and SIM card
 
 Choose 1 answer(s).
 
-Worked answer: A. Node B and RNC
+Worked answer: A. Choose A once: that option already contains both required elements, Node B and RNC. Node B provides the radio link and the RNC controls radio resources. BTS and BSC are the corresponding GSM terms, not the UMTS pair.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 25.401: UTRAN architecture, definitions and clause 6](https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/18.00.00_60/ts_125401v180000p.pdf); [ETSI TR 100 053: GSM architecture, section 5.3.3](https://www.etsi.org/deliver/etsi_tr/100001_100099/100053/01.03.01_60/tr_100053v010301p.pdf).
 
 ## Midterm Variant 1 · 14
 
@@ -212,7 +268,11 @@ D. 2G was designed mainly for high-speed video streaming
 
 Choose 2 answer(s).
 
-Worked answer: A, C. 2G commonly uses circuit switching for voice 4G mainly uses packet switching
+Worked answer: A, C. Choose A and C. GSM-era 2G commonly uses circuit-switched voice; LTE/EPS uses a packet-based architecture. Both are digital generations. GPRS also added packet data to 2G, so the contrast does not mean 2G can never carry packets.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IETF RFC 6459: GPRS and Evolved Packet System, sections 3.1 and 4.1](https://www.rfc-editor.org/rfc/rfc6459.html); [Ericsson: history of mobile Internet](https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review/articles/mobile-miracles).
 
 ## Midterm Variant 1 · 15
 
@@ -227,7 +287,11 @@ D. 24 MB/s
 
 Choose 1 answer(s).
 
-Worked answer: C. 24 MB ÷ 3 s = 8 MB/s. This is 64 Mbps.
+Worked calculation: C. Rate = size ÷ time = 24 MB ÷ 3 s = 8 MB/s, so choose C. The question asks for bytes per second. Multiplying by eight gives 64 Mbps; mixing MB/s with Mbps is the main trap.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 1 · 16
 
@@ -242,7 +306,11 @@ D. 20 seconds
 
 Choose 1 answer(s).
 
-Worked answer: B. 100 MB ÷ 20 MB/s = 5 s.
+Worked calculation: B. Time = size ÷ rate = 100 MB ÷ 20 MB/s = 5 s, so choose B. The MB units cancel. No bits-to-bytes conversion is needed because both supplied quantities already use bytes.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 1 · 17
 
@@ -257,7 +325,11 @@ D. 100 seconds
 
 Choose 1 answer(s).
 
-Worked answer: C. 1 GB = 1000 MB = 8000 Mb. 8000 Mb ÷ 100 Mb/s = 80 s, ignoring overhead.
+Worked calculation: C. Using the stated decimal convention, 1 GB = 1000 MB = 8000 Mb. Time = 8000 Mb ÷ 100 Mb/s = 80 s, so choose C. Ten seconds would incorrectly treat bytes as bits. This ideal estimate ignores protocol overhead.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 1 · 18
 
@@ -272,7 +344,11 @@ D. 100
 
 Choose 1 answer(s).
 
-Worked answer: D. For comparable cell shapes, the count scales with area: (50/5)² = 100.
+Worked calculation: D. For the same cell shape, area is proportional to radius squared. The ideal count is (50/5)² = 100, so choose D. Ten is only the radius ratio. Real coverage needs planning for overlap, terrain and interference.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Recorded past-paper prompt: supplied values and assumptions](https://github.com/lalob1/wireless-final-prep/blob/main/sources/past-paper-transcription.md).
 
 ## Midterm Variant 1 · 19
 
@@ -287,7 +363,11 @@ D. 189 Wh
 
 Choose 1 answer(s).
 
-Worked answer: C. (18 − 6) W × 1.5 h/day × 7 days = 126 Wh.
+Worked calculation: C. Saved power is 18 − 6 = 12 W. Weekly call time is 1.5 × 7 = 10.5 h. Saved energy = 12 × 10.5 = 126 Wh, so choose C. Watts measure power; watt-hours measure energy.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: watt is a joule per second](https://www.nist.gov/glossary-term/34606).
 
 ## Midterm Variant 1 · 20
 
@@ -302,7 +382,13 @@ D. 2G: $2,000 per user
 
 Choose 1 answer(s).
 
-Worked answer: B. 1G: $60,000/30 = $2,000 per user. 2G: $120,000/150 = $800 per user.
+Worked calculation: B. Treating both supplied costs as annual costs, 1G costs $60,000/30 = $2,000 per user per year; 2G costs $120,000/150 = $800. Choose B. Compare cost per user, not just the total bill. The second cost’s annual basis is implicit in the prompt.
+
+Transcription status: Unverified against original photo.
+
+Review note: The calculation assumes the second stated cost is annual, as implied by the question. Original wording is preserved.
+
+Evidence: [Recorded past-paper prompt: supplied values and assumptions](https://github.com/lalob1/wireless-final-prep/blob/main/sources/past-paper-transcription.md).
 
 ## Midterm Variant 1 · 21
 
@@ -317,7 +403,11 @@ D. Data → Frame → Segment → Packet → Bits
 
 Choose 1 answer(s).
 
-Worked answer: C. Data → Segment → Packet → Frame → Bits
+Worked answer: C. For the usual TCP example, application data becomes a transport segment, an IP packet, a link frame, then transmitted bits. Choose C. The reverse sequence describes reception; UDP uses the term datagram rather than TCP segment.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/); [IETF RFC 9293: TCP transport and segments, sections 2.2 and 3.1](https://www.rfc-editor.org/rfc/rfc9293.html#section-2.2).
 
 ## Midterm Variant 1 · 22
 
@@ -332,7 +422,11 @@ D. Many wireless users using the same radio resources
 
 Choose 2 answer(s).
 
-Worked answer: B, D. An obstacle weakens the signal; many users share limited airtime and can create interference or contention.
+Worked answer: B, D. Choose B and D. An obstacle can attenuate the radio path; active users share finite radio resources. Heavy load can cause airtime contention, with interference also possible. Extra storage or RAM does not by itself remove these radio limitations.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TR 38.901: path loss, shadow fading and fast fading, clauses 7.4–7.5](https://www.etsi.org/deliver/etsi_tr/138900_138999/138901/19.03.00_60/tr_138901v190300p.pdf); [Cisco mesh guide: co-channel interference and CSMA deferral](https://www.cisco.com/c/en/us/td/docs/wireless/technology/mesh/7-3/design/guide/Mesh/Mesh_chapter_0100.html).
 
 ## Midterm Variant 1 · 23
 
@@ -347,7 +441,11 @@ D. Authentication → Data → Scan
 
 Choose 1 answer(s).
 
-Worked answer: B. Discovery precedes authentication and association. For a protected WLAN, a security handshake is also needed before protected data transfer.
+Worked answer: B. B gives the simplified initial sequence: discover an access point, perform 802.11 authentication, associate, then transfer data. A protected WLAN also needs its security exchanges before protected traffic. Initial 802.11 authentication is not the same as later enterprise EAP authentication.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Cisco: 802.11 association and WPA/WPA2 security exchanges](https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/116493-technote-technology-00.html).
 
 ## Midterm Variant 1 · 24
 
@@ -362,7 +460,11 @@ D. The router changes its SSID automatically
 
 Choose 2 answer(s).
 
-Worked answer: A, C. The handshake derives and confirms keys for protected communication. It does not broadcast the passphrase.
+Worked answer: A, C. Choose A and C. The WPA2 four-way handshake derives and confirms transient key material and prepares protected communication. It does not broadcast the Wi-Fi passphrase or change the SSID. Authentication and key establishment should not be confused with sending a password in the clear.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Cisco: 802.11 association and WPA/WPA2 security exchanges](https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/116493-technote-technology-00.html).
 
 ## Midterm Variant 1 · 25
 
@@ -377,7 +479,13 @@ D. Encapsulation
 
 Choose 2 answer(s).
 
-Worked answer: B, C. B and C are intended among the given choices. Obstacles may cause shadowing and multipath fading; shared radio resources can cause contention and interference.
+Worked answer: B, C. B and C are the expected choices from this list. Distance and a building suggest path loss and shadowing; active users compete for radio resources. These clues alone do not establish fast fading or harmful interference. Compression and encapsulation are data-handling operations, not these radio effects.
+
+Transcription status: Unverified against original photo.
+
+Review note: Prepared key retained as the closest available choice(s). The original wording is broader than the technical distinction; instructor intent and the original photo remain unverified. See the explanation and primary evidence.
+
+Evidence: [3GPP TR 38.901: path loss, shadow fading and fast fading, clauses 7.4–7.5](https://www.etsi.org/deliver/etsi_tr/138900_138999/138901/19.03.00_60/tr_138901v190300p.pdf); [Cisco mesh guide: co-channel interference and CSMA deferral](https://www.cisco.com/c/en/us/td/docs/wireless/technology/mesh/7-3/design/guide/Mesh/Mesh_chapter_0100.html).
 
 ## Midterm Variant 2 · 1
 
@@ -392,7 +500,11 @@ D. Connecting two computers only with a USB cable
 
 Choose 1 answer(s).
 
-Worked answer: A. Making a call using a mobile phone
+Worked answer: A. A mobile-phone call uses a radio link between a mobile device and the cellular network, so A fits. Reading or writing on paper does not exchange information over that link; a USB-only connection is wired.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 25.401: UTRAN architecture, definitions and clause 6](https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/18.00.00_60/ts_125401v180000p.pdf).
 
 ## Midterm Variant 2 · 2
 
@@ -407,7 +519,11 @@ D. 10,000 microseconds
 
 Choose 1 answer(s).
 
-Worked answer: C. 1 millisecond = 1000 microseconds.
+Worked answer: C. Milli means 10⁻³ and micro means 10⁻⁶. Therefore 1 ms = 10³ µs = 1000 µs, so choose C. A microsecond is the smaller unit, so a millisecond contains many of them.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: SI prefixes, section 4.3](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes).
 
 ## Midterm Variant 2 · 3
 
@@ -422,7 +538,11 @@ D. Presentation
 
 Choose 1 answer(s).
 
-Worked answer: B. Transport
+Worked answer: B. TCP and UDP provide transport services above IP, so choose the Transport layer. TCP provides a reliable byte stream; UDP does not provide TCP’s delivery guarantees. IP addressing and routing belong to the Network layer.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/); [IETF RFC 9293: TCP transport and segments, sections 2.2 and 3.1](https://www.rfc-editor.org/rfc/rfc9293.html#section-2.2).
 
 ## Midterm Variant 2 · 4
 
@@ -437,7 +557,11 @@ D. Data Link Layer
 
 Choose 1 answer(s).
 
-Worked answer: A. Presentation Layer
+Worked answer: A. The Presentation layer describes representation and transformation of data, including formatting, compression and encryption, so A fits the OSI model. In real systems, encryption can also be implemented at other layers; the answer is a conceptual classification, not an exclusive rule.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/); [ITU-T X.800: Presentation layer security, clauses 7.6.1–7.6.2](https://www.itu.int/rec/T-REC-X.800-199103-I/en).
 
 ## Midterm Variant 2 · 5
 
@@ -452,7 +576,11 @@ D. A mobile operating system
 
 Choose 1 answer(s).
 
-Worked answer: B. A wireless networking technology
+Worked answer: B. Wi-Fi is a wireless local-area networking technology based on IEEE 802.11. It is a way to connect devices over a wireless link, not a battery or operating system. A Wi-Fi link can exist even without Internet access.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IEEE 802.11: wireless LAN standards](https://www.ieee802.org/11/index.shtml).
 
 ## Midterm Variant 2 · 6
 
@@ -467,7 +595,11 @@ D. LTE
 
 Choose 1 answer(s).
 
-Worked answer: C. Pre-cellular mobile radio systems
+Worked answer: C. Pre-cellular mobile radio systems came before cellular generations, so choose C. Early mobile telephone services existed before 1G cellular networks. LTE, 4G and 5G are later developments, not predecessors of 1G.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Ericsson: first mobile telephone networks](https://www.ericsson.com/en/about-us/history/changing-the-world/small-steps-great-advances/first-networks).
 
 ## Midterm Variant 2 · 7
 
@@ -482,7 +614,11 @@ D. 2G stopped supporting voice calls
 
 Choose 1 answer(s).
 
-Worked answer: A. 2G introduced digital mobile communication
+Worked answer: A. 2G introduced digital cellular communication in place of the analog radio voice systems associated with 1G. Voice remained supported, and messaging became an important service. Digital does not mean that mobile calls or messaging were removed.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Ericsson: history of mobile Internet](https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review/articles/mobile-miracles).
 
 ## Midterm Variant 2 · 8
 
@@ -497,7 +633,11 @@ D. User Mobile Telephone Standard
 
 Choose 1 answer(s).
 
-Worked answer: A. Universal Mobile Telecommunications System
+Worked answer: A. UMTS expands to Universal Mobile Telecommunications System. It names the 3G system whose UTRAN uses Node B and RNC elements. The other choices resemble the acronym but are not its standardized expansion.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 25.401: UTRAN architecture, definitions and clause 6](https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/18.00.00_60/ts_125401v180000p.pdf).
 
 ## Midterm Variant 2 · 9
 
@@ -512,7 +652,11 @@ D. By changing the phone screen size
 
 Choose 1 answer(s).
 
-Worked answer: A. By giving users different time slots
+Worked answer: A. Time Division Multiple Access separates transmissions into time slots. Users can share a carrier by transmitting at different times. Do not confuse this with FDMA, which separates users by frequency channels.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 45.002: radio channels and TDMA, clauses 4.2–4.3](https://www.etsi.org/deliver/etsi_ts/145000_145099/145002/17.00.00_60/ts_145002v170000p.pdf).
 
 ## Midterm Variant 2 · 10
 
@@ -527,7 +671,11 @@ D. By changing packet size
 
 Choose 1 answer(s).
 
-Worked answer: A. By assigning different frequency channels
+Worked answer: A. Frequency Division Multiple Access separates users by assigning different frequency channels. TDMA instead separates transmissions in time. Phone brand, password and screen size are not radio multiple-access resources.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 45.002: radio channels and TDMA, clauses 4.2–4.3](https://www.etsi.org/deliver/etsi_ts/145000_145099/145002/17.00.00_60/ts_145002v170000p.pdf).
 
 ## Midterm Variant 2 · 11
 
@@ -542,7 +690,11 @@ D. It replaces the SIM card
 
 Choose 1 answer(s).
 
-Worked answer: A. It controls Node B base stations and radio resources
+Worked answer: A. The Radio Network Controller manages Node Bs and radio resources in UTRAN, so choose A. Node B supplies the radio-facing base-station functions. The RNC is network infrastructure, not a handset display, photo store or SIM replacement.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 25.401: UTRAN architecture, definitions and clause 6](https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/18.00.00_60/ts_125401v180000p.pdf).
 
 ## Midterm Variant 2 · 12
 
@@ -557,7 +709,11 @@ D. Creates social media accounts
 
 Choose 1 answer(s).
 
-Worked answer: A. Provides a radio connection between mobile devices and the network
+Worked answer: A. A base station provides the radio-side connection between mobile devices and the wider network. That communication role is different from charging a handset or managing the user’s applications and accounts.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [3GPP TS 25.401: UTRAN architecture, definitions and clause 6](https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/18.00.00_60/ts_125401v180000p.pdf).
 
 ## Midterm Variant 2 · 13
 
@@ -572,7 +728,11 @@ D. 50 MB/s
 
 Choose 1 answer(s).
 
-Worked answer: B. 50 MB ÷ 5 s = 10 MB/s.
+Worked calculation: B. Rate = size ÷ time = 50 MB ÷ 5 s = 10 MB/s, so choose B. This is a byte rate. If requested in megabits per second it would be 80 Mbps; do not change units without the factor of eight.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 2 · 14
 
@@ -587,7 +747,11 @@ D. 80 MB/s
 
 Choose 1 answer(s).
 
-Worked answer: C. 80 megabits per second ÷ 8 = 10 megabytes per second.
+Worked calculation: C. There are eight bits per byte. Convert 80 Mbps to a byte rate by dividing by eight: 80/8 = 10 MB/s, so choose C. Keeping the number 80 while changing b to B would make the rate eight times too large.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 2 · 15
 
@@ -602,7 +766,11 @@ D. 80 seconds
 
 Choose 1 answer(s).
 
-Worked answer: C. 400 MB × 8 = 3200 Mb. 3200/80 = 40 seconds, ignoring overhead.
+Worked calculation: C. First put size and rate in the same units: 400 MB × 8 = 3200 Mb. Time = 3200 Mb ÷ 80 Mb/s = 40 s, so choose C. Five seconds misses the byte-to-bit conversion. Theoretical time excludes overhead.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: bytes and decimal/binary prefixes](https://physics.nist.gov/cuu/Units/binary.html).
 
 ## Midterm Variant 2 · 18
 
@@ -617,7 +785,11 @@ D. 20
 
 Choose 1 answer(s).
 
-Worked answer: C. For comparable cell shapes, the count scales with area: (20/5)² = 16.
+Worked calculation: C. Comparable cell areas scale with radius squared. The count is (20/5)² = 16, so choose C. Four is the radius ratio, not the area ratio. This is an ideal area estimate rather than a complete radio coverage design.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [Recorded past-paper prompt: supplied values and assumptions](https://github.com/lalob1/wireless-final-prep/blob/main/sources/past-paper-transcription.md).
 
 ## Midterm Variant 2 · 19
 
@@ -632,7 +804,11 @@ D. 24 Wh
 
 Choose 1 answer(s).
 
-Worked answer: C. (12 − 4) W × 2 h = 16 Wh.
+Worked calculation: C. The power difference is 12 − 4 = 8 W. Over 2 h, the energy saving is 8 × 2 = 16 Wh, so choose C. Eight watts is a power difference; the question asks for energy over the stated duration.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [NIST: watt is a joule per second](https://www.nist.gov/glossary-term/34606).
 
 ## Midterm Variant 2 · 20
 
@@ -647,7 +823,11 @@ D. 2G was designed mainly for high-definition streaming
 
 Choose 2 answer(s).
 
-Worked answer: A, B. GSM is associated with 2G LTE is associated with 4G
+Worked answer: A, B. Choose A and B: GSM is associated with 2G and LTE with the 4G era. Both use digital communication. 2G began with voice-focused services and was not designed primarily for high-definition video streaming.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IETF RFC 6459: GPRS and Evolved Packet System, sections 3.1 and 4.1](https://www.rfc-editor.org/rfc/rfc6459.html); [Ericsson: history of mobile Internet](https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review/articles/mobile-miracles).
 
 ## Midterm Variant 2 · 21
 
@@ -662,7 +842,11 @@ D. Segment → Data → Frame → Packet → Bits
 
 Choose 1 answer(s).
 
-Worked answer: A. Data → Segment → Packet → Frame → Bits
+Worked answer: A. At the sender in the conventional TCP example, data is wrapped into a segment, then an IP packet, then a link frame, and finally represented as bits. Choose A. Reception reverses the process; UDP’s transport unit is called a datagram.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [ITU-T X.200: OSI basic reference model, clause 7](https://www.itu.int/rec/T-REC-X.200/en/); [IETF RFC 9293: TCP transport and segments, sections 2.2 and 3.1](https://www.rfc-editor.org/rfc/rfc9293.html#section-2.2).
 
 ## Midterm Variant 2 · 22
 
@@ -677,7 +861,13 @@ D. Routing
 
 Choose 1 answer(s).
 
-Worked answer: B. B is the intended answer among these choices. A building can attenuate the signal (shadowing); the question uses the broader word fading.
+Worked answer: B. B is the best available choice. The building blocks or attenuates the radio path: more precisely, shadowing or shadow fading. The observation alone does not prove multipath fast fading. Encapsulation, compression and routing do not describe this propagation effect.
+
+Transcription status: Unverified against original photo.
+
+Review note: Prepared key retained as the closest available choice(s). The original wording is broader than the technical distinction; instructor intent and the original photo remain unverified. See the explanation and primary evidence.
+
+Evidence: [3GPP TR 38.901: path loss, shadow fading and fast fading, clauses 7.4–7.5](https://www.etsi.org/deliver/etsi_tr/138900_138999/138901/19.03.00_60/tr_138901v190300p.pdf).
 
 ## Midterm Variant 2 · 23
 
@@ -692,7 +882,13 @@ D. Storage capacity
 
 Choose 1 answer(s).
 
-Worked answer: A. A is the intended answer among these choices. Many devices on one Wi-Fi channel also share airtime and contend for access; this is not always interference in the strict sense.
+Worked answer: A. A is the expected label among these choices. Active Wi-Fi devices on one channel share airtime and contend for access; waiting for a busy channel can reduce throughput without corrupting a transmission. Collisions or harmful interference are possible, but twenty devices alone do not prove them.
+
+Transcription status: Unverified against original photo.
+
+Review note: Prepared key retained as the closest available choice(s). The original wording is broader than the technical distinction; instructor intent and the original photo remain unverified. See the explanation and primary evidence.
+
+Evidence: [Cisco mesh guide: co-channel interference and CSMA deferral](https://www.cisco.com/c/en/us/td/docs/wireless/technology/mesh/7-3/design/guide/Mesh/Mesh_chapter_0100.html).
 
 ## Midterm Variant 2 · 24
 
@@ -707,7 +903,11 @@ D. 4G does not support Internet access
 
 Choose 2 answer(s).
 
-Worked answer: A, B. 4G supports much higher data rates 4G is designed around packet-based IP communication
+Worked answer: A, B. Choose A and B. LTE/EPS supports higher data rates and a packet-based IP architecture suited to broadband services. 4G is digital and supports Internet access. Packet data also existed in later 2G systems, but at much lower capabilities.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IETF RFC 6459: GPRS and Evolved Packet System, sections 3.1 and 4.1](https://www.rfc-editor.org/rfc/rfc6459.html).
 
 ## Midterm Variant 2 · 25
 
@@ -722,4 +922,8 @@ D. It can only be used for analog voice
 
 Choose 2 answer(s).
 
-Worked answer: A, C. Packet switching divides data into packets and lets users share network resources. A dedicated circuit is not reserved for every flow.
+Worked answer: A, C. Choose A and C. Packet switching carries data in packets while multiple flows share network resources. It does not require a dedicated physical circuit for each flow. Packets carry digital information; the method is not restricted to analog voice.
+
+Transcription status: Unverified against original photo.
+
+Evidence: [IETF RFC 6459: GPRS and Evolved Packet System, sections 3.1 and 4.1](https://www.rfc-editor.org/rfc/rfc6459.html); [IETF RFC 9293: TCP transport and segments, sections 2.2 and 3.1](https://www.rfc-editor.org/rfc/rfc9293.html#section-2.2).
