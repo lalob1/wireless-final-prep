@@ -1,0 +1,32 @@
+Practical Task 
+Part A — Nyquist’s Theorem 
+Task 1. Maximum bit rate  
+An ideal noiseless channel has a bandwidth of 4,000 Hz and uses 16 signal levels. Calculate its maximum bit rate in bps and kbps.
+________________________________________________________________________________
+________________________________________________________________________________
+Task 2. Compare two modulation choices  
+A noiseless channel has a bandwidth of 6,000 Hz. Calculate the maximum bit rate for (a) M = 4 and (b) M = 8. How much does the maximum bit rate increase?
+________________________________________________________________________________
+________________________________________________________________________________
+Part B — Shannon’s Theorem 
+Task 1. Channel capacity  
+A wireless channel has B = 3,000 Hz and SNR = 20 dB. Convert SNR into a linear power ratio and calculate Shannon capacity in bps and kbps.
+________________________________________________________________________________
+________________________________________________________________________________
+Task 2. Effect of SNR  
+For a 5 MHz channel, calculate Shannon capacity at SNR = 10 dB. Then predict whether capacity increases or decreases if SNR falls to 5 dB (no second calculation required).
+________________________________________________________________________________
+________________________________________________________________________________
+Task 3. Interpretation  
+Two links use the same bandwidth, but Link A has SNR = 25 dB and Link B has SNR = 5 dB. Which has the higher theoretical channel capacity, and why?
+________________________________________________________________________________
+________________________________________________________________________________
+Part C — Friis’ Transmission Law 
+Task 1. Received power  
+A transmitter radiates 100 mW at 2.4 GHz over a 20 m free-space link. Assume Gₜ = Gᵣ = 1 (linear). Compute wavelength λ, free-space path loss (dB), and received power in dBm.
+________________________________________________________________________________
+________________________________________________________________________________
+Task 2. Distance and power  
+Using Friis’ law, suppose distance doubles from 20 m to 40 m while all other parameters stay the same. By what factor does received power change? Approximately how many dB are lost?
+________________________________________________________________________________
+________________________________________________________________________________

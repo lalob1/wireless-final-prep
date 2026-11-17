@@ -1,0 +1,3008 @@
+{
+  "version": 1,
+  "title": "Wireless Final Prep",
+  "examQuestionCount": 25,
+  "updated": "2026-11-17",
+  "coverage": {
+    "photosProcessed": 19,
+    "originalPhotoQuestions": 48,
+    "assignmentOriginalQuestions": 40,
+    "assignmentPracticeItems": 67,
+    "calculationTasks": 7,
+    "practiceItems": 122,
+    "missing": [
+      "Midterm Variant 2 questions 16 and 17 are absent from the supplied photos.",
+      "No separate endterm-labeled question paper was identified among the supplied files."
+    ],
+    "notes": [
+      "Original two-answer questions remain multi-select.",
+      "Assignment 4 matching pairs are converted into individual MCQs.",
+      "Last-practice calculation prompts are preserved; their answer choices were added for MCQ practice.",
+      "Past-paper answer keys are worked answers, not an official marking scheme.",
+      "Photo overlap is merged within each variant; repeated questions across variants keep their original source positions."
+    ]
+  },
+  "questions": [
+    {
+      "id": "m1-01",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "1",
+      "prompt": "What is wireless communication?",
+      "choices": [
+        "Communication that always uses cables",
+        "Communication that can send information using radio waves",
+        "Communication only between satellites",
+        "Communication that works only without the Internet"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_13_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Communication that can send information using radio waves",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 1"
+    },
+    {
+      "id": "m1-02",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "2",
+      "prompt": "How many bits are in 1 Byte?",
+      "choices": [
+        "2 bits",
+        "4 bits",
+        "8 bits",
+        "16 bits"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_13_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "One byte contains 8 bits.",
+      "explanation": "One byte contains 8 bits.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 2"
+    },
+    {
+      "id": "m1-03",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "3",
+      "prompt": "How many layers are in the OSI model?",
+      "choices": [
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_13_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "The OSI reference model has seven layers.",
+      "explanation": "The OSI reference model has seven layers.",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 3"
+    },
+    {
+      "id": "m1-04",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "4",
+      "prompt": "Which OSI layer sends bits through radio waves, cables, or other physical media?",
+      "choices": [
+        "Network Layer",
+        "Physical Layer",
+        "Transport Layer",
+        "Application Layer"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_13_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Physical Layer",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 4"
+    },
+    {
+      "id": "m1-05",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "5",
+      "prompt": "Which OSI layer works with IP addresses and routing?",
+      "choices": [
+        "Data Link Layer",
+        "Session Layer",
+        "Network Layer",
+        "Presentation Layer"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_13_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Network Layer",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 5"
+    },
+    {
+      "id": "m1-06",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "6",
+      "prompt": "Who standardizes Wi-Fi technology?",
+      "choices": [
+        "WHO",
+        "IEEE",
+        "FIFA",
+        "UNESCO"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_13_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "IEEE",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 6"
+    },
+    {
+      "id": "m1-07",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "7",
+      "prompt": "What was the main service provided by 1G mobile networks?",
+      "choices": [
+        "Video streaming",
+        "Analog voice calls",
+        "High-speed Internet",
+        "Mobile applications"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_4_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Analog voice calls",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 7"
+    },
+    {
+      "id": "m1-08",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "8",
+      "prompt": "What is the name of the base station in a 3G UMTS network?",
+      "choices": [
+        "BSC",
+        "Router",
+        "Node B",
+        "Gateway"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_4_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Node B",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 8"
+    },
+    {
+      "id": "m1-09",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "9",
+      "prompt": "In a mobile network, frequency mainly tells us:",
+      "choices": [
+        "When a signal is transmitted",
+        "Where the signal is located in the radio spectrum",
+        "How many users have phones",
+        "How much battery is left"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_4_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Where the signal is located in the radio spectrum",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 9"
+    },
+    {
+      "id": "m1-10",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "10",
+      "prompt": "What is fading?",
+      "choices": [
+        "A change in signal strength caused by distance or obstacles",
+        "A type of mobile application",
+        "A method for storing data",
+        "A Wi-Fi password problem"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_4_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "A is the intended answer among these choices. The wording is broad: distance and obstacle loss are usually described more precisely as path loss and shadowing; fading refers to variations in received signal strength.",
+      "explanation": "A is the intended answer among these choices. The wording is broad: distance and obstacle loss are usually described more precisely as path loss and shadowing; fading refers to variations in received signal strength.",
+      "needsReview": true,
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "sourceRef": "Midterm Variant 1 · 10"
+    },
+    {
+      "id": "m1-11",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "11",
+      "prompt": "What is interference?",
+      "choices": [
+        "Increasing the battery capacity",
+        "Signals affecting each other when they share the wireless medium",
+        "Converting Bytes to bits",
+        "Connecting a phone using a USB cable"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_4_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Signals affecting each other when they share the wireless medium",
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 11"
+    },
+    {
+      "id": "m1-12",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "12",
+      "prompt": "What is one main function of a BSC in a 2G network?",
+      "choices": [
+        "It controls base stations",
+        "It stores photos",
+        "It creates Wi-Fi passwords",
+        "It replaces the mobile phone"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_4_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "It controls base stations",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 12"
+    },
+    {
+      "id": "m1-13",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "13",
+      "prompt": "Which two elements mainly form UTRAN in a 3G UMTS network?",
+      "choices": [
+        "Node B and RNC",
+        "BTS and BSC",
+        "Router and Switch",
+        "UE and SIM card"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_3_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Node B and RNC",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 13"
+    },
+    {
+      "id": "m1-14",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "14",
+      "prompt": "Which statements correctly compare 2G and 4G?",
+      "choices": [
+        "2G commonly uses circuit switching for voice",
+        "4G is mainly an analog network",
+        "4G mainly uses packet switching",
+        "2G was designed mainly for high-speed video streaming"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_3_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "2G commonly uses circuit switching for voice 4G mainly uses packet switching",
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 14"
+    },
+    {
+      "id": "m1-15",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "15",
+      "prompt": "A 24 MB photo is sent in 3 seconds. What is the transmission speed?",
+      "choices": [
+        "3 MB/s",
+        "6 MB/s",
+        "8 MB/s",
+        "24 MB/s"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_3_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "24 MB ÷ 3 s = 8 MB/s. This is 64 Mbps.",
+      "explanation": "24 MB ÷ 3 s = 8 MB/s. This is 64 Mbps.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 15"
+    },
+    {
+      "id": "m1-16",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "16",
+      "prompt": "A file is 100 MB and the download speed is 20 MB/s. How long will the download take?",
+      "choices": [
+        "2 seconds",
+        "5 seconds",
+        "10 seconds",
+        "20 seconds"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_3_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "100 MB ÷ 20 MB/s = 5 s.",
+      "explanation": "100 MB ÷ 20 MB/s = 5 s.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 16"
+    },
+    {
+      "id": "m1-17",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "17",
+      "prompt": "A 1 GB file is downloaded using a 100 Mbps connection. Assume 1 GB = 1000 MB. What is the theoretical download time?",
+      "choices": [
+        "10 seconds",
+        "20 seconds",
+        "80 seconds",
+        "100 seconds"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_3_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "1 GB = 1000 MB = 8000 Mb. 8000 Mb ÷ 100 Mb/s = 80 s, ignoring overhead.",
+      "explanation": "1 GB = 1000 MB = 8000 Mb. 8000 Mb ÷ 100 Mb/s = 80 s, ignoring overhead.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 17"
+    },
+    {
+      "id": "m1-18",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "18",
+      "prompt": "One old cell has a radius of 50 km. New cells have a radius of 5 km. Approximately how many smaller cells are needed to cover the same area?",
+      "choices": [
+        "10",
+        "25",
+        "50",
+        "100"
+      ],
+      "answers": [
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "For comparable cell shapes, the count scales with area: (50/5)² = 100.",
+      "explanation": "For comparable cell shapes, the count scales with area: (50/5)² = 100.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 18"
+    },
+    {
+      "id": "m1-19",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "19",
+      "prompt": "A 1G phone uses 18 W during a call, while a 2G phone uses 6 W. A person talks for 1.5 hours every day. How much energy is saved in one week by using the 2G phone?",
+      "choices": [
+        "18 Wh",
+        "54 Wh",
+        "126 Wh",
+        "189 Wh"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "(18 − 6) W × 1.5 h/day × 7 days = 126 Wh.",
+      "explanation": "(18 − 6) W × 1.5 h/day × 7 days = 126 Wh.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 19"
+    },
+    {
+      "id": "m1-20",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "20",
+      "prompt": "A 1G system costs $60,000 per year and serves 30 users. A 2G system costs $120,000 and serves 150 users. Which system has the lower annual cost per user?",
+      "choices": [
+        "1G: $800 per user",
+        "2G: $800 per user",
+        "Both cost $2,000 per user",
+        "2G: $2,000 per user"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "1G: $60,000/30 = $2,000 per user. 2G: $120,000/150 = $800 per user.",
+      "explanation": "1G: $60,000/30 = $2,000 per user. 2G: $120,000/150 = $800 per user.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 20"
+    },
+    {
+      "id": "m1-21",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "21",
+      "prompt": "What is the correct encapsulation order when data is sent through the network?",
+      "choices": [
+        "Data → Packet → Segment → Bits → Frame",
+        "Bits → Frame → Packet → Segment → Data",
+        "Data → Segment → Packet → Frame → Bits",
+        "Data → Frame → Segment → Packet → Bits"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Data → Segment → Packet → Frame → Bits",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 21"
+    },
+    {
+      "id": "m1-22",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "22",
+      "prompt": "Which situations can make a wireless connection worse?",
+      "choices": [
+        "Increasing phone storage",
+        "A large obstacle between the phone and base station",
+        "Adding more RAM to the phone",
+        "Many wireless users using the same radio resources"
+      ],
+      "answers": [
+        1,
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "An obstacle weakens the signal; many users share limited airtime and can create interference or contention.",
+      "explanation": "An obstacle weakens the signal; many users share limited airtime and can create interference or contention.",
+      "topic": "Radio & propagation",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 22"
+    },
+    {
+      "id": "m1-23",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "23",
+      "prompt": "Which sequence best describes a device connecting to Wi-Fi?",
+      "choices": [
+        "Data → Association → Beacon → Authentication",
+        "Beacon/Scan → Authentication → Association → Data",
+        "Association → Data → Beacon → Authentication",
+        "Authentication → Data → Scan"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "Discovery precedes authentication and association. For a protected WLAN, a security handshake is also needed before protected data transfer.",
+      "explanation": "Discovery precedes authentication and association. For a protected WLAN, a security handshake is also needed before protected data transfer.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 23"
+    },
+    {
+      "id": "m1-24",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "24",
+      "prompt": "What happens during a Wi-Fi security handshake such as the WPA2 4-Way Handshake?",
+      "choices": [
+        "Security keys are established for protected communication",
+        "The Wi-Fi password is sent openly to everyone",
+        "The client and access point confirm information needed for secure communication",
+        "The router changes its SSID automatically"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "The handshake derives and confirms keys for protected communication. It does not broadcast the passphrase.",
+      "explanation": "The handshake derives and confirms keys for protected communication. It does not broadcast the passphrase.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 1 · 24"
+    },
+    {
+      "id": "m1-25",
+      "source": "Midterm Variant 1",
+      "sourceNumber": "25",
+      "prompt": "A student is far from a base station, there is a large building between them, and many users are using the same wireless resources. Which two problems are most likely?",
+      "choices": [
+        "Compression",
+        "Fading",
+        "Interference",
+        "Encapsulation"
+      ],
+      "answers": [
+        1,
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "B and C are intended among the given choices. Obstacles may cause shadowing and multipath fading; shared radio resources can cause contention and interference.",
+      "explanation": "B and C are intended among the given choices. Obstacles may cause shadowing and multipath fading; shared radio resources can cause contention and interference.",
+      "needsReview": true,
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "sourceRef": "Midterm Variant 1 · 25"
+    },
+    {
+      "id": "m2-01",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "1",
+      "prompt": "Which is an example of mobile communication?",
+      "choices": [
+        "Making a call using a mobile phone",
+        "Writing on paper",
+        "Reading a printed book",
+        "Connecting two computers only with a USB cable"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_10_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Making a call using a mobile phone",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 1"
+    },
+    {
+      "id": "m2-02",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "2",
+      "prompt": "1 millisecond is equal to:",
+      "choices": [
+        "10 microseconds",
+        "100 microseconds",
+        "1,000 microseconds",
+        "10,000 microseconds"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_10_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "1 millisecond = 1000 microseconds.",
+      "explanation": "1 millisecond = 1000 microseconds.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 2"
+    },
+    {
+      "id": "m2-03",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "3",
+      "prompt": "Which OSI layer commonly uses TCP and UDP?",
+      "choices": [
+        "Physical",
+        "Transport",
+        "Network",
+        "Presentation"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_10_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Transport",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 3"
+    },
+    {
+      "id": "m2-04",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "4",
+      "prompt": "Which OSI layer can be responsible for formatting, compression, and encryption?",
+      "choices": [
+        "Presentation Layer",
+        "Physical Layer",
+        "Network Layer",
+        "Data Link Layer"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_10_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Presentation Layer",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 4"
+    },
+    {
+      "id": "m2-05",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "5",
+      "prompt": "Wi-Fi is:",
+      "choices": [
+        "A wired networking technology",
+        "A wireless networking technology",
+        "A type of battery",
+        "A mobile operating system"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_10_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "A wireless networking technology",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 5"
+    },
+    {
+      "id": "m2-06",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "6",
+      "prompt": "Which technology came before 1G cellular networks?",
+      "choices": [
+        "5G",
+        "4G",
+        "Pre-cellular mobile radio systems",
+        "LTE"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_10_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Pre-cellular mobile radio systems",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 6"
+    },
+    {
+      "id": "m2-07",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "7",
+      "prompt": "What was an important improvement of 2G compared with 1G?",
+      "choices": [
+        "2G introduced digital mobile communication",
+        "2G returned to analog communication",
+        "2G removed mobile messaging",
+        "2G stopped supporting voice calls"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_8_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "2G introduced digital mobile communication",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 7"
+    },
+    {
+      "id": "m2-08",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "8",
+      "prompt": "What does UMTS stand for?",
+      "choices": [
+        "Universal Mobile Telecommunications System",
+        "Unified Mobile Transmission Service",
+        "Universal Machine Transfer System",
+        "User Mobile Telephone Standard"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_8_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Universal Mobile Telecommunications System",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 8"
+    },
+    {
+      "id": "m2-09",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "9",
+      "prompt": "How does TDMA separate different users?",
+      "choices": [
+        "By giving users different time slots",
+        "By giving every user a different battery",
+        "By using only cables",
+        "By changing the phone screen size"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_8_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "By giving users different time slots",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 9"
+    },
+    {
+      "id": "m2-10",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "10",
+      "prompt": "How does FDMA separate different users?",
+      "choices": [
+        "By assigning different frequency channels",
+        "By assigning different phone brands",
+        "By assigning different passwords",
+        "By changing packet size"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_8_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "By assigning different frequency channels",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 10"
+    },
+    {
+      "id": "m2-11",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "11",
+      "prompt": "What is one important function of the RNC in a 3G network?",
+      "choices": [
+        "It controls Node B base stations and radio resources",
+        "It displays videos on the phone",
+        "It stores the user's photos",
+        "It replaces the SIM card"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_8_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "It controls Node B base stations and radio resources",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 11"
+    },
+    {
+      "id": "m2-12",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "12",
+      "prompt": "What does a base station mainly do?",
+      "choices": [
+        "Provides a radio connection between mobile devices and the network",
+        "Charges mobile phones",
+        "Stores applications",
+        "Creates social media accounts"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_7_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Provides a radio connection between mobile devices and the network",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 12"
+    },
+    {
+      "id": "m2-13",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "13",
+      "prompt": "A 50 MB file is transferred in 5 seconds. What is the speed?",
+      "choices": [
+        "5 MB/s",
+        "10 MB/s",
+        "25 MB/s",
+        "50 MB/s"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_7_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "50 MB ÷ 5 s = 10 MB/s.",
+      "explanation": "50 MB ÷ 5 s = 10 MB/s.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 13"
+    },
+    {
+      "id": "m2-14",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "14",
+      "prompt": "A connection works at 80 Mbps. Approximately how many MB/s is this?",
+      "choices": [
+        "5 MB/s",
+        "8 MB/s",
+        "10 MB/s",
+        "80 MB/s"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_7_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "80 megabits per second ÷ 8 = 10 megabytes per second.",
+      "explanation": "80 megabits per second ÷ 8 = 10 megabytes per second.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 14"
+    },
+    {
+      "id": "m2-15",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "15",
+      "prompt": "A 400 MB video is downloaded at 80 Mbps. How long will it theoretically take?",
+      "choices": [
+        "5 seconds",
+        "10 seconds",
+        "40 seconds",
+        "80 seconds"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_7_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "400 MB × 8 = 3200 Mb. 3200/80 = 40 seconds, ignoring overhead.",
+      "explanation": "400 MB × 8 = 3200 Mb. 3200/80 = 40 seconds, ignoring overhead.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 15"
+    },
+    {
+      "id": "m2-18",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "18",
+      "prompt": "A network originally uses cells with a radius of 20 km. The new system uses cells with a radius of 5 km. Approximately how many new cells are needed to cover the area of one old cell?",
+      "choices": [
+        "4",
+        "8",
+        "16",
+        "20"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_6_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "For comparable cell shapes, the count scales with area: (20/5)² = 16.",
+      "explanation": "For comparable cell shapes, the count scales with area: (20/5)² = 16.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 18"
+    },
+    {
+      "id": "m2-19",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "19",
+      "prompt": "Phone A uses 12 W during a call. Phone B uses 4 W. A user talks for 2 hours. How much less energy does Phone B use during that time?",
+      "choices": [
+        "8 Wh",
+        "12 Wh",
+        "16 Wh",
+        "24 Wh"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_6_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "(12 − 4) W × 2 h = 16 Wh.",
+      "explanation": "(12 − 4) W × 2 h = 16 Wh.",
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 19"
+    },
+    {
+      "id": "m2-20",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "20",
+      "prompt": "Which statements correctly describe the difference between 2G and 4G?",
+      "choices": [
+        "GSM is associated with 2G",
+        "LTE is associated with 4G",
+        "4G is an analog-only system",
+        "2G was designed mainly for high-definition streaming"
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_6_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "GSM is associated with 2G LTE is associated with 4G",
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 20"
+    },
+    {
+      "id": "m2-21",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "21",
+      "prompt": "Which is the correct order of data units at the sender?",
+      "choices": [
+        "Data → Segment → Packet → Frame → Bits",
+        "Data → Frame → Packet → Segment → Bits",
+        "Bits → Frame → Packet → Segment → Data",
+        "Segment → Data → Frame → Packet → Bits"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_6_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "Data → Segment → Packet → Frame → Bits",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 21"
+    },
+    {
+      "id": "m2-22",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "22",
+      "prompt": "A student walks behind a thick concrete building and the mobile signal suddenly becomes weaker. What is the best explanation?",
+      "choices": [
+        "Encapsulation",
+        "Fading",
+        "Compression",
+        "Routing"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_5_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "B is the intended answer among these choices. A building can attenuate the signal (shadowing); the question uses the broader word fading.",
+      "explanation": "B is the intended answer among these choices. A building can attenuate the signal (shadowing); the question uses the broader word fading.",
+      "needsReview": true,
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "sourceRef": "Midterm Variant 2 · 22"
+    },
+    {
+      "id": "m2-23",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "23",
+      "prompt": "Twenty Wi-Fi devices are using the same wireless channel in a small room. Network performance becomes worse. What is the most likely problem?",
+      "choices": [
+        "Interference",
+        "Encryption",
+        "Screen resolution",
+        "Storage capacity"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_5_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "A is the intended answer among these choices. Many devices on one Wi-Fi channel also share airtime and contend for access; this is not always interference in the strict sense.",
+      "explanation": "A is the intended answer among these choices. Many devices on one Wi-Fi channel also share airtime and contend for access; this is not always interference in the strict sense.",
+      "needsReview": true,
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "sourceRef": "Midterm Variant 2 · 23"
+    },
+    {
+      "id": "m2-24",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "24",
+      "prompt": "An operator wants a network suitable for high-speed mobile Internet, video streaming, and modern IP services. Why is 4G more suitable than 2G?",
+      "choices": [
+        "4G supports much higher data rates",
+        "4G is designed around packet-based IP communication",
+        "4G only supports analog voice",
+        "4G does not support Internet access"
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_5_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "",
+      "explanation": "4G supports much higher data rates 4G is designed around packet-based IP communication",
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 24"
+    },
+    {
+      "id": "m2-25",
+      "source": "Midterm Variant 2",
+      "sourceNumber": "25",
+      "prompt": "Which statements describe packet switching?",
+      "choices": [
+        "Data can be divided into packets",
+        "A dedicated physical circuit must always remain reserved",
+        "Network resources can be shared by many users",
+        "It can only be used for analog voice"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_5_2026-11-17_17-17-10.jpg",
+      "type": "original-mcq",
+      "ocrEngine": "PaddleOCR-VL-1.6",
+      "reviewNote": "Packet switching divides data into packets and lets users share network resources. A dedicated circuit is not reserved for every flow.",
+      "explanation": "Packet switching divides data into packets and lets users share network resources. A dedicated circuit is not reserved for every flow.",
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Midterm Variant 2 · 25"
+    },
+    {
+      "id": "a4-01",
+      "source": "Assignment 4",
+      "sourceNumber": "1",
+      "prompt": "A telecom engineer observes that a smartphone uses 256-QAM near a base station but switches to a more robust modulation scheme when the signal quality gets worse.\n\nWhy does the network make this change?",
+      "choices": [
+        "Lower-order modulation makes symbols easier to distinguish under poor signal conditions.",
+        "Lower-order modulation always carries more bits per symbol.",
+        "Modulation changes are mainly used to reduce the phone's screen brightness.",
+        "High-order modulation works better when noise increases."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Lower-order modulation makes symbols easier to distinguish under poor signal conditions.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        0
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 1"
+    },
+    {
+      "id": "a4-02-1",
+      "source": "Assignment 4",
+      "sourceNumber": "2.1",
+      "prompt": "A laptop sends data using radio waves through Wi-Fi.\n\nSelect the matching term.",
+      "context": "Students are using the university network to send messages, download files, and access websites. Match each situation with the correct OSI layer.",
+      "choices": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Transport Layer",
+        "Network Layer"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A laptop sends data using radio waves through Wi-Fi. → Physical Layer",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 2,
+      "answers": [
+        0
+      ],
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 2.1"
+    },
+    {
+      "id": "a4-02-2",
+      "source": "Assignment 4",
+      "sourceNumber": "2.2",
+      "prompt": "A network device uses MAC addresses to deliver frames within a local network.\n\nSelect the matching term.",
+      "context": "Students are using the university network to send messages, download files, and access websites. Match each situation with the correct OSI layer.",
+      "choices": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Transport Layer",
+        "Network Layer"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A network device uses MAC addresses to deliver frames within a local network. → Data Link Layer",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 2,
+      "answers": [
+        1
+      ],
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 2.2"
+    },
+    {
+      "id": "a4-02-3",
+      "source": "Assignment 4",
+      "sourceNumber": "2.3",
+      "prompt": "A computer uses TCP to provide reliable data delivery.\n\nSelect the matching term.",
+      "context": "Students are using the university network to send messages, download files, and access websites. Match each situation with the correct OSI layer.",
+      "choices": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Transport Layer",
+        "Network Layer"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A computer uses TCP to provide reliable data delivery. → Transport Layer",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 2,
+      "answers": [
+        2
+      ],
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 2.3"
+    },
+    {
+      "id": "a4-02-4",
+      "source": "Assignment 4",
+      "sourceNumber": "2.4",
+      "prompt": "A router uses IP addresses to forward packets to another network.\n\nSelect the matching term.",
+      "context": "Students are using the university network to send messages, download files, and access websites. Match each situation with the correct OSI layer.",
+      "choices": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Transport Layer",
+        "Network Layer"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A router uses IP addresses to forward packets to another network. → Network Layer",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 2,
+      "answers": [
+        3
+      ],
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 2.4"
+    },
+    {
+      "id": "a4-03",
+      "source": "Assignment 4",
+      "sourceNumber": "3",
+      "prompt": "A warehouse uses wireless sensors placed behind shelves and large metal objects. Some sensors still receive data through signals reflected from surrounding surfaces.\n\nWhich statement best describes this situation?",
+      "choices": [
+        "Reflected signals always arrive at exactly the same time as the direct signal.",
+        "Reflected signals can provide alternative propagation paths, although they may also cause fading.",
+        "Wireless communication always requires a direct line of sight.",
+        "Metal objects increase the transmission power of every nearby wireless device."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Reflected signals can provide alternative propagation paths, although they may also cause fading.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 3"
+    },
+    {
+      "id": "a4-04",
+      "source": "Assignment 4",
+      "sourceNumber": "4",
+      "prompt": "A student opens the Wi-Fi settings on a laptop and sees several available networks without connecting to any of them.\n\nWhich Wi-Fi management frame is periodically transmitted by access points to advertise their networks?\n\ncx",
+      "choices": [
+        "Deauthentication frame",
+        "Association Request frame",
+        "Beacon frame",
+        "ACK frame"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Beacon frame",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 4"
+    },
+    {
+      "id": "a4-05",
+      "source": "Assignment 4",
+      "sourceNumber": "5",
+      "prompt": "Why does a phone use a lower data rate at the edge of coverage?\nA student travels away from a cellular base station. The phone is still connected, but the received signal becomes weaker and the download speed decreases.\n\nWhy might the network reduce its data rate?",
+      "choices": [
+        "A weaker signal always provides more available bandwidth.",
+        "Higher-order modulation automatically becomes more reliable with distance.",
+        "The network may use a more robust modulation and coding scheme to reduce errors.",
+        "The phone must change to analog communication when the signal weakens."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The network may use a more robust modulation and coding scheme to reduce errors.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 5"
+    },
+    {
+      "id": "a4-06-1",
+      "source": "Assignment 4",
+      "sourceNumber": "6.1",
+      "prompt": "The phone uses multiple antennas to transmit or receive spatial data streams.\n\nSelect the matching term.",
+      "context": "What happens when a phone moves? A student travels across the city using mobile Internet. Match each situation with the correct network concept.",
+      "choices": [
+        "MIMO",
+        "Handoff",
+        "Roaming",
+        "Carrier Aggregation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The phone uses multiple antennas to transmit or receive spatial data streams. → MIMO",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 6,
+      "answers": [
+        0
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 6.1"
+    },
+    {
+      "id": "a4-06-2",
+      "source": "Assignment 4",
+      "sourceNumber": "6.2",
+      "prompt": "The phone moves between cells while maintaining an active connection.\n\nSelect the matching term.",
+      "context": "What happens when a phone moves? A student travels across the city using mobile Internet. Match each situation with the correct network concept.",
+      "choices": [
+        "MIMO",
+        "Handoff",
+        "Roaming",
+        "Carrier Aggregation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The phone moves between cells while maintaining an active connection. → Handoff",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 6,
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 6.2"
+    },
+    {
+      "id": "a4-06-3",
+      "source": "Assignment 4",
+      "sourceNumber": "6.3",
+      "prompt": "The phone connects to a partner mobile operator while traveling abroad.\n\nSelect the matching term.",
+      "context": "What happens when a phone moves? A student travels across the city using mobile Internet. Match each situation with the correct network concept.",
+      "choices": [
+        "MIMO",
+        "Handoff",
+        "Roaming",
+        "Carrier Aggregation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The phone connects to a partner mobile operator while traveling abroad. → Roaming",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 6,
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 6.3"
+    },
+    {
+      "id": "a4-06-4",
+      "source": "Assignment 4",
+      "sourceNumber": "6.4",
+      "prompt": "The phone uses several component carriers to increase available bandwidth.\n\nSelect the matching term.",
+      "context": "What happens when a phone moves? A student travels across the city using mobile Internet. Match each situation with the correct network concept.",
+      "choices": [
+        "MIMO",
+        "Handoff",
+        "Roaming",
+        "Carrier Aggregation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The phone uses several component carriers to increase available bandwidth. → Carrier Aggregation",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 6,
+      "answers": [
+        3
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 6.4"
+    },
+    {
+      "id": "a4-07",
+      "source": "Assignment 4",
+      "sourceNumber": "7",
+      "prompt": "Why is an upload slower than expected?\nA student uploads a 500 MB video using a mobile network. The speed test shows 100 Mbps download speed but only 20 Mbps upload speed.\n\nAssuming a constant effective upload throughput of 20 Mbps, approximately how long will the upload take, ignoring additional overhead?",
+      "choices": [
+        "25 seconds",
+        "250 seconds",
+        "40 seconds",
+        "200 seconds"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "200 seconds",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Calculations & units",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 7"
+    },
+    {
+      "id": "a4-08",
+      "source": "Assignment 4",
+      "sourceNumber": "8",
+      "prompt": "A student is downloading a large file using a 5G connection. When the student moves farther from the base station, the signal quality decreases and the network switches to a more robust modulation scheme.\n\nWhy is this useful?",
+      "choices": [
+        "Lower-order modulation allows the phone to receive more bits per symbol without increasing errors.",
+        "Lower-order modulation always increases the maximum transmission speed",
+        "Changing modulation removes the need for error detection and correction.",
+        "More robust modulation improves reliability by making transmitted symbols easier to distinguish under poor signal conditions."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "More robust modulation improves reliability by making transmitted symbols easier to distinguish under poor signal conditions.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 8"
+    },
+    {
+      "id": "a4-09",
+      "source": "Assignment 4",
+      "sourceNumber": "9",
+      "prompt": "A university wants to create a wireless connection between two buildings that are directly facing each other. The buildings are stationary, and the connection should be focused in one direction.\n\nWhich antenna would be the most suitable?",
+      "choices": [
+        "A general-purpose antenna selected without considering its radiation pattern.",
+        "An omnidirectional antenna that distributes power around the building.",
+        "An isotropic antenna that radiates equally in every direction in 3D space.",
+        "A directional antenna aimed at the second building."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A directional antenna aimed at the second building.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 9"
+    },
+    {
+      "id": "a4-10",
+      "source": "Assignment 4",
+      "sourceNumber": "10",
+      "prompt": "Why does the signal change near buildings?\nA student is walking between tall buildings while listening to music over mobile Internet. The signal strength keeps changing, even though the student is not moving far from the base station.\n\nWhat is the most likely explanation?",
+      "choices": [
+        "The phone temporarily switches from wireless to wired communication.",
+        "The base station stops transmitting whenever a user enters a narrow street.",
+        "Radio signals reflect from buildings and reach the phone through different paths.",
+        "The phone automatically changes its radio frequency every few seconds."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Radio signals reflect from buildings and reach the phone through different paths.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 10"
+    },
+    {
+      "id": "a4-11",
+      "source": "Assignment 4",
+      "sourceNumber": "11",
+      "prompt": "Why does my phone use 4G instead of 5G?\nA student buys a smartphone that supports 5G. However, the phone sometimes connects to LTE even though the mobile operator offers 5G services.\n\nWhich explanation is the most reasonable?",
+      "choices": [
+        "The phone may use LTE when suitable 5G coverage, compatible bands, or network conditions are unavailable.",
+        "A 5G smartphone must use LTE whenever the battery falls below 50%.",
+        "The phone switches to LTE only when its processor cannot handle 5G data rates.",
+        "A smartphone can connect to 5G only when it is near a Wi-Fi access point."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The phone may use LTE when suitable 5G coverage, compatible bands, or network conditions are unavailable.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        0
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 11"
+    },
+    {
+      "id": "a4-12",
+      "source": "Assignment 4",
+      "sourceNumber": "12",
+      "prompt": "Why is a call interrupted when moving between cells?\nA student is on a phone call while traveling by bus. The bus moves from one cellular coverage area to another. The call suddenly disconnects.\n\nWhich explanation is most technically reasonable?",
+      "choices": [
+        "The smartphone must restart its operating system whenever it changes base stations.",
+        "The network automatically ends calls when a user moves faster than walking speed.",
+        "The handoff may have failed because the target cell lacked sufficient radio resources or the signal conditions were poor.",
+        "Every handoff requires the network to terminate an active voice call before establishing another one."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The handoff may have failed because the target cell lacked sufficient radio resources or the signal conditions were poor.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 12"
+    },
+    {
+      "id": "a4-13",
+      "source": "Assignment 4",
+      "sourceNumber": "13",
+      "prompt": "Why can two phones show the same signal strength but different speeds?\nTwo students stand in the same location using the same mobile operator. Both phones show strong LTE signal reception, but Phone A downloads files much faster than Phone B.\n\nWhich explanation is the most reasonable?",
+      "choices": [
+        "Signal strength alone determines throughput, so a speed difference is technically impossible.",
+        "Differences in supported MIMO configurations, carrier aggregation, modem capabilities, or radio conditions may affect throughput.",
+        "Phones with identical signal strength must always have identical download speeds.",
+        "Phone B must be connected to an analog network because its speed is lower."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Differences in supported MIMO configurations, carrier aggregation, modem capabilities, or radio conditions may affect throughput.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 13"
+    },
+    {
+      "id": "a4-14",
+      "source": "Assignment 4",
+      "sourceNumber": "14",
+      "prompt": "Why doesn't Wi-Fi always use RTS/CTS?\nA student studies Wireshark captures and notices that many Wi-Fi data frames are transmitted without an RTS/CTS exchange.\n\nWhat is the best explanation?",
+      "choices": [
+        "RTS/CTS is unnecessary because Wi-Fi devices can always detect collisions while transmitting.",
+        "RTS/CTS is used only when transmitting Beacon frames.",
+        "RTS/CTS is required only when a Wi-Fi network uses WPA3 encryption.",
+        "RTS/CTS is optional and may be enabled depending on frame size, configuration, and network conditions."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "RTS/CTS is optional and may be enabled depending on frame size, configuration, and network conditions.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 14"
+    },
+    {
+      "id": "a4-15",
+      "source": "Assignment 4",
+      "sourceNumber": "15",
+      "prompt": "A student uses a 4G LTE smartphone to open a website. Data travels through the LTE network before reaching the Internet.\n\nWhich LTE core network component provides connectivity to external packet data networks?",
+      "choices": [
+        "HSS",
+        "MME",
+        "eNodeB",
+        "P-GW"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "P-GW",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 15"
+    },
+    {
+      "id": "a4-16",
+      "source": "Assignment 4",
+      "sourceNumber": "16",
+      "prompt": "A student connects to a WPA2-Personal Wi-Fi network. After association, the laptop and access point perform a 4-Way Handshake.\n\nWhat is the main purpose of this process?",
+      "choices": [
+        "To establish and confirm keys for protected communication",
+        "To assign an IP address",
+        "To discover nearby access points",
+        "To increase the Wi-Fi signal strength"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "To establish and confirm keys for protected communication",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        0
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 16"
+    },
+    {
+      "id": "a4-17",
+      "source": "Assignment 4",
+      "sourceNumber": "17",
+      "prompt": "A student has a Wi-Fi router in the living room. The signal works well nearby but becomes weaker in a bedroom behind several walls.\n\nWhich Wi-Fi frequency band would generally provide better coverage?",
+      "choices": [
+        "6 GHz because it has more available channels",
+        "5 GHz because it offers higher speeds",
+        "All three bands provide identical coverage",
+        "2.4 GHz because it generally penetrates walls better"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "2.4 GHz because it generally penetrates walls better",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 17"
+    },
+    {
+      "id": "a4-18-1",
+      "source": "Assignment 4",
+      "sourceNumber": "18.1",
+      "prompt": "A person uses an old analog mobile phone mainly for voice calls.\n\nSelect the matching term.",
+      "context": "Which mobile network is being used? Four people are using mobile communication technologies from different generations.",
+      "choices": [
+        "1G",
+        "3G",
+        "2G",
+        "4G"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A person uses an old analog mobile phone mainly for voice calls. → 1G",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 18,
+      "answers": [
+        0
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 18.1"
+    },
+    {
+      "id": "a4-18-2",
+      "source": "Assignment 4",
+      "sourceNumber": "18.2",
+      "prompt": "Someone uses a UMTS network for mobile Internet access.\n\nSelect the matching term.",
+      "context": "Which mobile network is being used? Four people are using mobile communication technologies from different generations.",
+      "choices": [
+        "1G",
+        "3G",
+        "2G",
+        "4G"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Someone uses a UMTS network for mobile Internet access. → 3G",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 18,
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 18.2"
+    },
+    {
+      "id": "a4-18-3",
+      "source": "Assignment 4",
+      "sourceNumber": "18.3",
+      "prompt": "A student uses a GSM phone for digital calls and SMS.\n\nSelect the matching term.",
+      "context": "Which mobile network is being used? Four people are using mobile communication technologies from different generations.",
+      "choices": [
+        "1G",
+        "3G",
+        "2G",
+        "4G"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A student uses a GSM phone for digital calls and SMS. → 2G",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 18,
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 18.3"
+    },
+    {
+      "id": "a4-18-4",
+      "source": "Assignment 4",
+      "sourceNumber": "18.4",
+      "prompt": "A student streams HD video using LTE.\n\nSelect the matching term.",
+      "context": "Which mobile network is being used? Four people are using mobile communication technologies from different generations.",
+      "choices": [
+        "1G",
+        "3G",
+        "2G",
+        "4G"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A student streams HD video using LTE. → 4G",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 18,
+      "answers": [
+        3
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 18.4"
+    },
+    {
+      "id": "a4-19-1",
+      "source": "Assignment 4",
+      "sourceNumber": "19.1",
+      "prompt": "Students connect their laptops through a central Wi-Fi access point in a classroom.\n\nSelect the matching term.",
+      "context": "Which network design fits the situation? A university wants to create several types of wireless networks for different locations.",
+      "choices": [
+        "Single-hop infrastructure-based",
+        "Single-hop infrastructure-less",
+        "Multi-hop infrastructure-less",
+        "Multi-hop infrastructure-based"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Students connect their laptops through a central Wi-Fi access point in a classroom. → Single-hop infrastructure-based",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 19,
+      "answers": [
+        0
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 19.1"
+    },
+    {
+      "id": "a4-19-2",
+      "source": "Assignment 4",
+      "sourceNumber": "19.2",
+      "prompt": "Two laptops communicate directly over Wi-Fi without an access point.\n\nSelect the matching term.",
+      "context": "Which network design fits the situation? A university wants to create several types of wireless networks for different locations.",
+      "choices": [
+        "Single-hop infrastructure-based",
+        "Single-hop infrastructure-less",
+        "Multi-hop infrastructure-less",
+        "Multi-hop infrastructure-based"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Two laptops communicate directly over Wi-Fi without an access point. → Single-hop infrastructure-less",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 19,
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 19.2"
+    },
+    {
+      "id": "a4-19-3",
+      "source": "Assignment 4",
+      "sourceNumber": "19.3",
+      "prompt": "Several devices forward data through neighboring devices without any central access point.\n\nSelect the matching term.",
+      "context": "Which network design fits the situation? A university wants to create several types of wireless networks for different locations.",
+      "choices": [
+        "Single-hop infrastructure-based",
+        "Single-hop infrastructure-less",
+        "Multi-hop infrastructure-less",
+        "Multi-hop infrastructure-based"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Several devices forward data through neighboring devices without any central access point. → Multi-hop infrastructure-less",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 19,
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 19.3"
+    },
+    {
+      "id": "a4-19-4",
+      "source": "Assignment 4",
+      "sourceNumber": "19.4",
+      "prompt": "Wireless devices communicate through relay nodes connected to a network infrastructure.\n\nSelect the matching term.",
+      "context": "Which network design fits the situation? A university wants to create several types of wireless networks for different locations.",
+      "choices": [
+        "Single-hop infrastructure-based",
+        "Single-hop infrastructure-less",
+        "Multi-hop infrastructure-less",
+        "Multi-hop infrastructure-based"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Wireless devices communicate through relay nodes connected to a network infrastructure. → Multi-hop infrastructure-based",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 19,
+      "answers": [
+        3
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 19.4"
+    },
+    {
+      "id": "a4-20",
+      "source": "Assignment 4",
+      "sourceNumber": "20",
+      "prompt": "A gaming room has many connected devices. The owner wants a router that supports 2.4 GHz, 5 GHz, and 6 GHz.\n\nWhich router would best meet this requirement?",
+      "choices": [
+        "Dual-band router",
+        "Wired-only router",
+        "Tri-band",
+        "Single-band router"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Tri-band",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 20"
+    },
+    {
+      "id": "a4-21-1",
+      "source": "Assignment 4",
+      "sourceNumber": "21.1",
+      "prompt": "The devices establish and confirm encryption keys before protected data transfer.\n\nSelect the matching term.",
+      "context": "What happens when you connect to Wi-Fi? A student arrives at university, opens a laptop, and connects to a protected Wi-Fi network. Match each action with the correct step in the connection process.",
+      "choices": [
+        "4-Way Handshake",
+        "Scanning / Beacon Discovery",
+        "802.11 Authentication",
+        "Association"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The devices establish and confirm encryption keys before protected data transfer. → 4-Way Handshake",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 21,
+      "answers": [
+        0
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 21.1"
+    },
+    {
+      "id": "a4-21-2",
+      "source": "Assignment 4",
+      "sourceNumber": "21.2",
+      "prompt": "The laptop detects nearby networks by receiving advertisements from access points.\n\nSelect the matching term.",
+      "context": "What happens when you connect to Wi-Fi? A student arrives at university, opens a laptop, and connects to a protected Wi-Fi network. Match each action with the correct step in the connection process.",
+      "choices": [
+        "4-Way Handshake",
+        "Scanning / Beacon Discovery",
+        "802.11 Authentication",
+        "Association"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The laptop detects nearby networks by receiving advertisements from access points. → Scanning / Beacon Discovery",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 21,
+      "answers": [
+        1
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 21.2"
+    },
+    {
+      "id": "a4-21-3",
+      "source": "Assignment 4",
+      "sourceNumber": "21.3",
+      "prompt": "The laptop and access point perform the initial 802.11 authentication exchange.\n\nSelect the matching term.",
+      "context": "What happens when you connect to Wi-Fi? A student arrives at university, opens a laptop, and connects to a protected Wi-Fi network. Match each action with the correct step in the connection process.",
+      "choices": [
+        "4-Way Handshake",
+        "Scanning / Beacon Discovery",
+        "802.11 Authentication",
+        "Association"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The laptop and access point perform the initial 802.11 authentication exchange. → 802.11 Authentication",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 21,
+      "answers": [
+        2
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 21.3"
+    },
+    {
+      "id": "a4-21-4",
+      "source": "Assignment 4",
+      "sourceNumber": "21.4",
+      "prompt": "The laptop requests to join the selected access point.\n\nSelect the matching term.",
+      "context": "What happens when you connect to Wi-Fi? A student arrives at university, opens a laptop, and connects to a protected Wi-Fi network. Match each action with the correct step in the connection process.",
+      "choices": [
+        "4-Way Handshake",
+        "Scanning / Beacon Discovery",
+        "802.11 Authentication",
+        "Association"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The laptop requests to join the selected access point. → Association",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 21,
+      "answers": [
+        3
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 21.4"
+    },
+    {
+      "id": "a4-22",
+      "source": "Assignment 4",
+      "sourceNumber": "22",
+      "prompt": "A passenger is using a mobile phone while traveling in a high-speed train. As the train moves relative to a cellular base station, the received radio frequency may shift slightly.\n\nWhich phenomenon explains this frequency change?",
+      "choices": [
+        "Carrier aggregation",
+        "Doppler effect",
+        "Multipath fading",
+        "Packet retransmission"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Doppler effect",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 22"
+    },
+    {
+      "id": "a4-23",
+      "source": "Assignment 4",
+      "sourceNumber": "23",
+      "prompt": "Why does Wi-Fi become slower in a crowded classroom?\nThirty students are connected to the same Wi-Fi access point. Everyone has a strong signal, but the Internet becomes slower when most students start watching videos.\n\nWhat is the most likely explanation?",
+      "choices": [
+        "The students share limited wireless airtime and network capacity, which reduces throughput per user.",
+        "Wi-Fi devices must disconnect and reconnect whenever multiple users transmit data.",
+        "The access point automatically reduces its radio frequency when many users connect.",
+        "Strong signal reception forces the access point to use a slower modulation scheme."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The students share limited wireless airtime and network capacity, which reduces throughput per user.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        0
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 23"
+    },
+    {
+      "id": "a4-24",
+      "source": "Assignment 4",
+      "sourceNumber": "24",
+      "prompt": "A student connects a laptop to a home Wi-Fi router, but the laptop shows \"Connected, no Internet.\" Other devices have the same problem.\n\nWhich router port should the student check first to investigate the connection to the Internet provider?",
+      "choices": [
+        "USB port",
+        "LAN port",
+        "Power port",
+        "WAN port"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "WAN port",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 24"
+    },
+    {
+      "id": "a4-25",
+      "source": "Assignment 4",
+      "sourceNumber": "25",
+      "prompt": "A student opens an old Wi-Fi router and notices a green circuit board containing chips and copper tracks.\n\nWhy is fiberglass commonly used as the base material of the circuit board?",
+      "choices": [
+        "It provides strength, heat resistance, and electrical insulation",
+        "It generates wireless signals",
+        "It replaces all copper connections",
+        "It processes incoming Internet packets"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "It provides strength, heat resistance, and electrical insulation",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        0
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 25"
+    },
+    {
+      "id": "a4-26",
+      "source": "Assignment 4",
+      "sourceNumber": "26",
+      "prompt": "A student places a Wi-Fi router in the living room. The kitchen receives a good signal, but the bedroom behind several thick walls has an unreliable connection.\n\nWhat is the most reasonable technical explanation?",
+      "choices": [
+        "The laptop's IP address becomes invalid when the user moves behind a wall.",
+        "The router switches off unused radio channels when it detects obstacles.",
+        "Wi-Fi routers automatically reduce their frequency when a device changes rooms.",
+        "Walls can attenuate radio waves and reduce the received signal power."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Walls can attenuate radio waves and reduce the received signal power.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 26"
+    },
+    {
+      "id": "a4-27",
+      "source": "Assignment 4",
+      "sourceNumber": "27",
+      "prompt": "Why does my phone lose signal inside an elevator?\nA student is using mobile Internet outside a building. The connection works well, but it becomes much weaker after entering a metal elevator.\n\nWhat is the most likely reason?",
+      "choices": [
+        "The smartphone automatically switches to a lower mobile network generation whenever it detects metal.",
+        "Mobile networks temporarily stop transmitting data when a user moves vertically.",
+        "The base station reduces its transmission power because the user is inside a building.",
+        "Metal surfaces reduce radio signal penetration and can strongly attenuate the received signal."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Metal surfaces reduce radio signal penetration and can strongly attenuate the received signal.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 27"
+    },
+    {
+      "id": "a4-28-1",
+      "source": "Assignment 4",
+      "sourceNumber": "28.1",
+      "prompt": "Each user receives a different frequency channel for communication.\n\nSelect the matching term.",
+      "context": "How do mobile operators serve many users? A telecommunications engineer is studying three ways to organize access to shared radio resources.",
+      "choices": [
+        "FDMA",
+        "CDMA",
+        "TDMA"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Each user receives a different frequency channel for communication. → FDMA",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 28,
+      "answers": [
+        0
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 28.1"
+    },
+    {
+      "id": "a4-28-2",
+      "source": "Assignment 4",
+      "sourceNumber": "28.2",
+      "prompt": "Users share time and frequency resources but are distinguished by different codes.\n\nSelect the matching term.",
+      "context": "How do mobile operators serve many users? A telecommunications engineer is studying three ways to organize access to shared radio resources.",
+      "choices": [
+        "FDMA",
+        "CDMA",
+        "TDMA"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Users share time and frequency resources but are distinguished by different codes. → CDMA",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 28,
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 28.2"
+    },
+    {
+      "id": "a4-28-3",
+      "source": "Assignment 4",
+      "sourceNumber": "28.3",
+      "prompt": "Users share the same frequency channel but transmit at different times.\n\nSelect the matching term.",
+      "context": "How do mobile operators serve many users? A telecommunications engineer is studying three ways to organize access to shared radio resources.",
+      "choices": [
+        "FDMA",
+        "CDMA",
+        "TDMA"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Users share the same frequency channel but transmit at different times. → TDMA",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 28,
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 28.3"
+    },
+    {
+      "id": "a4-29-1",
+      "source": "Assignment 4",
+      "sourceNumber": "29.1",
+      "prompt": "Two nearby Wi-Fi networks use overlapping channels, causing communication problems.\n\nSelect the matching term.",
+      "context": "Why is my Internet not working properly? Four students are experiencing different wireless problems. Match each situation with the most likely technical explanation.",
+      "choices": [
+        "Interference",
+        "Network congestion",
+        "Path loss",
+        "Multipath propagation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Two nearby Wi-Fi networks use overlapping channels, causing communication problems. → Interference",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 29,
+      "answers": [
+        0
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 29.1"
+    },
+    {
+      "id": "a4-29-2",
+      "source": "Assignment 4",
+      "sourceNumber": "29.2",
+      "prompt": "Hundreds of students connect to the same Wi-Fi network, and everyone's speed decreases.\n\nSelect the matching term.",
+      "context": "Why is my Internet not working properly? Four students are experiencing different wireless problems. Match each situation with the most likely technical explanation.",
+      "choices": [
+        "Interference",
+        "Network congestion",
+        "Path loss",
+        "Multipath propagation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Hundreds of students connect to the same Wi-Fi network, and everyone's speed decreases. → Network congestion",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 29,
+      "answers": [
+        1
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 29.2"
+    },
+    {
+      "id": "a4-29-3",
+      "source": "Assignment 4",
+      "sourceNumber": "29.3",
+      "prompt": "A student walks far away from the Wi-Fi router, and the signal gradually becomes weaker.\n\nSelect the matching term.",
+      "context": "Why is my Internet not working properly? Four students are experiencing different wireless problems. Match each situation with the most likely technical explanation.",
+      "choices": [
+        "Interference",
+        "Network congestion",
+        "Path loss",
+        "Multipath propagation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A student walks far away from the Wi-Fi router, and the signal gradually becomes weaker. → Path loss",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 29,
+      "answers": [
+        2
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 29.3"
+    },
+    {
+      "id": "a4-29-4",
+      "source": "Assignment 4",
+      "sourceNumber": "29.4",
+      "prompt": "A student uses Wi-Fi in a building where signals reflect off walls and arrive through different paths.\n\nSelect the matching term.",
+      "context": "Why is my Internet not working properly? Four students are experiencing different wireless problems. Match each situation with the most likely technical explanation.",
+      "choices": [
+        "Interference",
+        "Network congestion",
+        "Path loss",
+        "Multipath propagation"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A student uses Wi-Fi in a building where signals reflect off walls and arrive through different paths. → Multipath propagation",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 29,
+      "answers": [
+        3
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 29.4"
+    },
+    {
+      "id": "a4-30-1",
+      "source": "Assignment 4",
+      "sourceNumber": "30.1",
+      "prompt": "User data packets are forwarded through the LTE core network.\n\nSelect the matching term.",
+      "context": "What is happening inside the mobile network? A student makes a call using an LTE network. Different network components perform different tasks.",
+      "choices": [
+        "S-GW",
+        "eNodeB",
+        "MME",
+        "HSS"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "User data packets are forwarded through the LTE core network. → S-GW",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 30,
+      "answers": [
+        0
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 30.1"
+    },
+    {
+      "id": "a4-30-2",
+      "source": "Assignment 4",
+      "sourceNumber": "30.2",
+      "prompt": "The phone communicates with the network through the radio interface.\n\nSelect the matching term.",
+      "context": "What is happening inside the mobile network? A student makes a call using an LTE network. Different network components perform different tasks.",
+      "choices": [
+        "S-GW",
+        "eNodeB",
+        "MME",
+        "HSS"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The phone communicates with the network through the radio interface. → eNodeB",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 30,
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 30.2"
+    },
+    {
+      "id": "a4-30-3",
+      "source": "Assignment 4",
+      "sourceNumber": "30.3",
+      "prompt": "The network handles mobility management and control signaling\n\nSelect the matching term.",
+      "context": "What is happening inside the mobile network? A student makes a call using an LTE network. Different network components perform different tasks.",
+      "choices": [
+        "S-GW",
+        "eNodeB",
+        "MME",
+        "HSS"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The network handles mobility management and control signaling → MME",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 30,
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 30.3"
+    },
+    {
+      "id": "a4-30-4",
+      "source": "Assignment 4",
+      "sourceNumber": "30.4",
+      "prompt": "The network retrieves subscriber information for authentication\n\nSelect the matching term.",
+      "context": "What is happening inside the mobile network? A student makes a call using an LTE network. Different network components perform different tasks.",
+      "choices": [
+        "S-GW",
+        "eNodeB",
+        "MME",
+        "HSS"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The network retrieves subscriber information for authentication → HSS",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 30,
+      "answers": [
+        3
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 30.4"
+    },
+    {
+      "id": "a4-31",
+      "source": "Assignment 4",
+      "sourceNumber": "31",
+      "prompt": "A telecommunications engineer manages several base stations in a 2G GSM network.\n\nWhich network component controls these base stations and manages their radio resources?",
+      "choices": [
+        "HLR",
+        "BSC",
+        "MSC",
+        "GMSC"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "BSC",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 31"
+    },
+    {
+      "id": "a4-32",
+      "source": "Assignment 4",
+      "sourceNumber": "32",
+      "prompt": "Two students are sitting at opposite ends of a large classroom. Both laptops can communicate with the same Wi-Fi access point, but the laptops cannot reliably detect each other's transmissions.\n\nWhat problem may occur when both devices transmit at the same time?",
+      "choices": [
+        "Handoff failure",
+        "IP routing loop",
+        "Hidden terminal problem",
+        "Bluetooth pairing failure"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Hidden terminal problem",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 32"
+    },
+    {
+      "id": "a4-33",
+      "source": "Assignment 4",
+      "sourceNumber": "33",
+      "prompt": "A student studies a 3G UMTS network. Several Node B base stations are connected to one network component.\n\nWhich component manages radio resources and helps coordinate handovers between cells?",
+      "choices": [
+        "MSC",
+        "GGSN",
+        "RNC",
+        "HLR"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "RNC",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 33"
+    },
+    {
+      "id": "a4-34",
+      "source": "Assignment 4",
+      "sourceNumber": "34",
+      "prompt": "A student stands behind a large concrete building, with no direct line of sight to a cellular tower. However, the phone still receives a usable signal that bends around the building's edge.\n\nWhich propagation phenomenon best explains this?",
+      "choices": [
+        "Doppler shift",
+        "Reflection",
+        "Frequency modulation",
+        "Diffraction"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Diffraction",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        3
+      ],
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 34"
+    },
+    {
+      "id": "a4-35-1",
+      "source": "Assignment 4",
+      "sourceNumber": "35.1",
+      "prompt": "A student listens to music using traditional Bluetooth headphones\n\nSelect the matching term.",
+      "context": "Which Bluetooth technology is suitable? Four students use Bluetooth devices for different purposes.",
+      "choices": [
+        "Bluetooth Classic",
+        "Bluetooth Low Energy",
+        "Pairing"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A student listens to music using traditional Bluetooth headphones → Bluetooth Classic",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 35,
+      "answers": [
+        0
+      ],
+      "topic": "Bluetooth",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 35.1"
+    },
+    {
+      "id": "a4-35-2",
+      "source": "Assignment 4",
+      "sourceNumber": "35.2",
+      "prompt": "A fitness tracker sends small amounts of sensor data while saving battery power.\n\nSelect the matching term.",
+      "context": "Which Bluetooth technology is suitable? Four students use Bluetooth devices for different purposes.",
+      "choices": [
+        "Bluetooth Classic",
+        "Bluetooth Low Energy",
+        "Pairing"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A fitness tracker sends small amounts of sensor data while saving battery power. → Bluetooth Low Energy",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 35,
+      "answers": [
+        1
+      ],
+      "topic": "Bluetooth",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 35.2"
+    },
+    {
+      "id": "a4-35-3",
+      "source": "Assignment 4",
+      "sourceNumber": "35.3",
+      "prompt": "Two devices establish a trusted connection and exchange security information for the first time.\n\nSelect the matching term.",
+      "context": "Which Bluetooth technology is suitable? Four students use Bluetooth devices for different purposes.",
+      "choices": [
+        "Bluetooth Classic",
+        "Bluetooth Low Energy",
+        "Pairing"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Two devices establish a trusted connection and exchange security information for the first time. → Pairing",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 35,
+      "answers": [
+        2
+      ],
+      "topic": "Bluetooth",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 35.3"
+    },
+    {
+      "id": "a4-36",
+      "source": "Assignment 4",
+      "sourceNumber": "36",
+      "prompt": "Why is the Internet faster near a base station?\n\nA student notices that mobile Internet usually works faster near a base station than at the edge of its coverage area.\n\nAssuming the same network load and available bandwidth, what is the most likely reason?",
+      "choices": [
+        "The network disables error correction for every device located near the base station.",
+        "Better signal quality may allow the network to use a higher modulation and coding scheme, increasing throughput.",
+        "Smartphones use a higher radio frequency whenever they approach the base station.",
+        "The base station automatically gives users closer to it unlimited bandwidth."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Better signal quality may allow the network to use a higher modulation and coding scheme, increasing throughput.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 36"
+    },
+    {
+      "id": "a4-37",
+      "source": "Assignment 4",
+      "sourceNumber": "37",
+      "prompt": "A student compares Wi-Fi 4, Wi-Fi 5, and Wi-Fi 6 routers in an electronics store.\n\nWhich IEEE standard corresponds to Wi-Fi 6?",
+      "choices": [
+        "IEEE 802.11n",
+        "IEEE 802.11ac",
+        "IEEE 802.11ax",
+        "IEEE 802.11be"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "IEEE 802.11ax",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        2
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 37"
+    },
+    {
+      "id": "a4-38-1",
+      "source": "Assignment 4",
+      "sourceNumber": "38.1",
+      "prompt": "One phone performs demanding applications faster because it has a more powerful processing unit.\n\nSelect the matching term.",
+      "context": "Why do different phones perform differently? Two students compare their smartphones while downloading files, gaming, and making calls.",
+      "choices": [
+        "CPU",
+        "RAM",
+        "MIMO"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "One phone performs demanding applications faster because it has a more powerful processing unit. → CPU",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 38,
+      "answers": [
+        0
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 38.1"
+    },
+    {
+      "id": "a4-38-2",
+      "source": "Assignment 4",
+      "sourceNumber": "38.2",
+      "prompt": "A phone keeps more applications active without frequently reloading them\n\nSelect the matching term.",
+      "context": "Why do different phones perform differently? Two students compare their smartphones while downloading files, gaming, and making calls.",
+      "choices": [
+        "CPU",
+        "RAM",
+        "MIMO"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A phone keeps more applications active without frequently reloading them → RAM",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 38,
+      "answers": [
+        1
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 38.2"
+    },
+    {
+      "id": "a4-38-3",
+      "source": "Assignment 4",
+      "sourceNumber": "38.3",
+      "prompt": "A phone can achieve higher wireless throughput using several spatial data streams.\n\nSelect the matching term.",
+      "context": "Why do different phones perform differently? Two students compare their smartphones while downloading files, gaming, and making calls.",
+      "choices": [
+        "CPU",
+        "RAM",
+        "MIMO"
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "A phone can achieve higher wireless throughput using several spatial data streams. → MIMO",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "matching-to-mcq",
+      "originalQuestion": 38,
+      "answers": [
+        2
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 38.3"
+    },
+    {
+      "id": "a4-39",
+      "source": "Assignment 4",
+      "sourceNumber": "39",
+      "prompt": "Why do Bluetooth headphones connect faster the second time?\nA student pairs Bluetooth headphones with a laptop for the first time. The next day, the headphones reconnect much faster.\n\nWhy might this happen?",
+      "choices": [
+        "The headphones permanently increase their transmission power after the first connection.",
+        "The devices can reuse stored bonding information instead of repeating the complete initial pairing procedure.",
+        "The laptop automatically changes the Bluetooth frequency band after pairing.",
+        "The devices no longer need authentication because previously paired devices communicate without security."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "The devices can reuse stored bonding information instead of repeating the complete initial pairing procedure.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Bluetooth",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 39"
+    },
+    {
+      "id": "a4-40",
+      "source": "Assignment 4",
+      "sourceNumber": "40",
+      "prompt": "A student is watching a video using 2.4 GHz Wi-Fi. When someone turns on a microwave oven in the kitchen, the video starts buffering. The connection improves after the microwave is switched off.\n\nWhat is the most likely cause?",
+      "choices": [
+        "The router switches to Bluetooth while the microwave is operating.",
+        "Electromagnetic interference affects communication in the 2.4 GHz band.",
+        "The oven changes the router's IP address.",
+        "The microwave forces the router to use a different network protocol."
+      ],
+      "answerStatus": "Source feedback",
+      "explanation": "Electromagnetic interference affects communication in the 2.4 GHz band.",
+      "sourceFile": "wireless_asik4.txt",
+      "type": "original-mcq",
+      "answers": [
+        1
+      ],
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Assignment 4 · 40"
+    },
+    {
+      "id": "calc-a1",
+      "source": "Last practice",
+      "sourceNumber": "A1",
+      "prompt": "An ideal noiseless channel has a bandwidth of 4,000 Hz and uses 16 signal levels. Calculate its maximum bit rate in bps and kbps.",
+      "originalPrompt": "An ideal noiseless channel has a bandwidth of 4,000 Hz and uses 16 signal levels. Calculate its maximum bit rate in bps and kbps.",
+      "choices": [
+        "32,000 bps = 32 kbps",
+        "16,000 bps = 16 kbps",
+        "64,000 bps = 64 kbps",
+        "4,000 bps = 4 kbps"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "Nyquist: R = 2B log₂(M) = 2 × 4000 × log₂(16) = 32,000 bps = 32 kbps.",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · A1"
+    },
+    {
+      "id": "calc-a2",
+      "source": "Last practice",
+      "sourceNumber": "A2",
+      "prompt": "A noiseless channel has a bandwidth of 6,000 Hz. Calculate the maximum bit rate for (a) M = 4 and (b) M = 8. How much does the maximum bit rate increase?",
+      "originalPrompt": "A noiseless channel has a bandwidth of 6,000 Hz. Calculate the maximum bit rate for (a) M = 4 and (b) M = 8. How much does the maximum bit rate increase?",
+      "choices": [
+        "12 kbps; 18 kbps; increase 6 kbps",
+        "24 kbps; 36 kbps; increase 12 kbps",
+        "48 kbps; 96 kbps; increase 48 kbps",
+        "24 kbps; 48 kbps; increase 24 kbps"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "R₄ = 2 × 6000 × 2 = 24,000 bps. R₈ = 2 × 6000 × 3 = 36,000 bps. Increase = 12,000 bps (50%).",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · A2"
+    },
+    {
+      "id": "calc-b1",
+      "source": "Last practice",
+      "sourceNumber": "B1",
+      "prompt": "A wireless channel has B = 3,000 Hz and SNR = 20 dB. Convert SNR into a linear power ratio and calculate Shannon capacity in bps and kbps.",
+      "originalPrompt": "A wireless channel has B = 3,000 Hz and SNR = 20 dB. Convert SNR into a linear power ratio and calculate Shannon capacity in bps and kbps.",
+      "choices": [
+        "SNR = 20; C ≈ 13.18 kbps",
+        "SNR = 100; C ≈ 19,975 bps = 19.975 kbps",
+        "SNR = 10; C ≈ 10.38 kbps",
+        "SNR = 100; C = 300,000 bps = 300 kbps"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "SNRlinear = 10^(20/10) = 100. C = B log₂(1 + SNR) = 3000 log₂(101) ≈ 19,974.63 bps = 19.975 kbps.",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · B1"
+    },
+    {
+      "id": "calc-b2",
+      "source": "Last practice",
+      "sourceNumber": "B2",
+      "prompt": "For a 5 MHz channel, calculate Shannon capacity at SNR = 10 dB. Then predict whether capacity increases or decreases if SNR falls to 5 dB (no second calculation required).",
+      "originalPrompt": "For a 5 MHz channel, calculate Shannon capacity at SNR = 10 dB. Then predict whether capacity increases or decreases if SNR falls to 5 dB (no second calculation required).",
+      "choices": [
+        "C ≈ 17.30 Mbps; capacity decreases at 5 dB",
+        "C = 50 Mbps; capacity increases at 5 dB",
+        "C ≈ 3.46 Mbps; capacity is unchanged",
+        "C ≈ 17.30 kbps; capacity increases at 5 dB"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "10 dB corresponds to SNRlinear = 10. C = 5 × 10⁶ log₂(11) ≈ 17.297 Mbps. Reducing SNR reduces log₂(1 + SNR), so capacity decreases.",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · B2"
+    },
+    {
+      "id": "calc-b3",
+      "source": "Last practice",
+      "sourceNumber": "B3",
+      "prompt": "Two links use the same bandwidth, but Link A has SNR = 25 dB and Link B has SNR = 5 dB. Which has the higher theoretical channel capacity, and why?",
+      "originalPrompt": "Two links use the same bandwidth, but Link A has SNR = 25 dB and Link B has SNR = 5 dB. Which has the higher theoretical channel capacity, and why?",
+      "choices": [
+        "Link B, because lower SNR means less noise",
+        "Both links have equal capacity because bandwidth is equal",
+        "Link A, because Shannon capacity increases with SNR at fixed bandwidth",
+        "It cannot be compared without knowing the phone storage"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "For the same B, Shannon capacity B log₂(1 + SNRlinear) increases monotonically with SNR. Link A therefore has higher theoretical capacity.",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · B3"
+    },
+    {
+      "id": "calc-c1",
+      "source": "Last practice",
+      "sourceNumber": "C1",
+      "prompt": "A transmitter radiates 100 mW at 2.4 GHz over a 20 m free-space link. Assume Gₜ = Gᵣ = 1 (linear). Compute wavelength λ, free-space path loss (dB), and received power in dBm.",
+      "originalPrompt": "A transmitter radiates 100 mW at 2.4 GHz over a 20 m free-space link. Assume Gₜ = Gᵣ = 1 (linear). Compute wavelength λ, free-space path loss (dB), and received power in dBm.",
+      "choices": [
+        "λ ≈ 0.125 m; FSPL ≈ 66.07 dB; Pᵣ ≈ −46.07 dBm",
+        "λ ≈ 1.25 m; FSPL ≈ 6.61 dB; Pᵣ ≈ 13.39 dBm",
+        "λ ≈ 0.125 m; FSPL ≈ 66.07 dB; Pᵣ ≈ 46.07 dBm",
+        "λ ≈ 0.0125 m; FSPL ≈ 46.07 dB; Pᵣ ≈ −26.07 dBm"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "Using c ≈ 3 × 10⁸ m/s: λ = c/f = 0.125 m. FSPL = 20 log₁₀(4πd/λ) ≈ 66.07 dB. 100 mW = 20 dBm; unity antenna gains = 0 dBi, so Pᵣ = 20 − 66.07 = −46.07 dBm.",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · C1"
+    },
+    {
+      "id": "calc-c2",
+      "source": "Last practice",
+      "sourceNumber": "C2",
+      "prompt": "Using Friis’ law, suppose distance doubles from 20 m to 40 m while all other parameters stay the same. By what factor does received power change? Approximately how many dB are lost?",
+      "originalPrompt": "Using Friis’ law, suppose distance doubles from 20 m to 40 m while all other parameters stay the same. By what factor does received power change? Approximately how many dB are lost?",
+      "choices": [
+        "Power doubles; gain of about 3 dB",
+        "Power halves; loss of about 3 dB",
+        "Power becomes one quarter; loss of about 6.02 dB",
+        "Power is unchanged; loss of 0 dB"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked calculation",
+      "explanation": "Friis gives Pᵣ ∝ 1/d². Doubling distance gives (20/40)² = 1/4 of the received power. Loss = 10 log₁₀(4) ≈ 6.02 dB.",
+      "sourceFile": "last_practice (3).docx",
+      "type": "calculation-to-mcq",
+      "topic": "Channel capacity & Friis",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Last practice · C2"
+    }
+  ]
+}

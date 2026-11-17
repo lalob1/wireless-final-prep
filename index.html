@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#164d43">
+  <meta name="description" content="Prepare for the Wireless final with the full question bank, editable answers, worked calculations and 25-question mock exams.">
+  <title>Wireless · Final Prep</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to questions</a>
+  <aside class="sidebar">
+    <a class="brand" href="#practice" aria-label="Wireless Final Prep home"><span class="brand-icon">w<span>↗</span></span><span>wireless<span class="brand-sub">FINAL PREP</span></span></a>
+    <div class="sidebar-label">YOUR STUDY SPACE</div>
+    <nav aria-label="Study modes">
+      <a href="#practice" data-nav="practice"><span aria-hidden="true">◉</span><span class="nav-label">Practice</span><span class="nav-tag">GO</span></a>
+      <a href="#bank" data-nav="bank"><span aria-hidden="true">▦</span><span class="nav-label">All questions</span><span id="nav-count" class="nav-count"></span></a>
+      <a href="#saved" data-nav="saved"><span aria-hidden="true">☆</span><span class="nav-label">Saved<span class="desktop-word"> questions</span></span></a>
+      <a href="#formulas" data-nav="formulas"><span aria-hidden="true">ƒ</span><span class="nav-label">Formula<span class="desktop-word"> sheet</span><span class="mobile-word">s</span></span></a>
+      <a href="#sources" data-nav="sources"><span aria-hidden="true">↗</span><span class="nav-label">Sources<span class="desktop-word"> & teamwork</span></span></a>
+    </nav>
+    <div class="sidebar-bottom"><span class="online-dot"></span> Made for your final<p>Study together. Track progress<br>on this device.</p><a href="https://github.com/lalob1/wireless-final-prep" target="_blank" rel="noopener">Open on GitHub ↗</a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>WIRELESS COMMUNICATIONS <span class="muted">/</span> FINAL EXAM</span><span class="edition">25 questions · MCQ</span></header>
+    <main id="main" tabindex="-1"><p class="loading">Loading your question bank…</p></main>
+    <footer>Wireless Final Prep <span>Built from your course materials · <a href="#sources">View coverage</a></span></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

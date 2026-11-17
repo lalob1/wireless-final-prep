@@ -1,0 +1,135 @@
+[
+  {
+    "file": "photo_1_2026-11-17_17-17-10.jpg",
+    "sha256": "43819cbaaf9c418ffa1b6a530389f61ea0b4213b1c78d97bd5d12f510f28706e",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1024
+  },
+  {
+    "file": "photo_2_2026-11-17_17-17-10.jpg",
+    "sha256": "feb9a91f3999f130e61f02b7034fcbeb02a48976c57feb2dc456871d65fea846",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1658
+  },
+  {
+    "file": "photo_3_2026-11-17_17-17-10.jpg",
+    "sha256": "8c95f883a79b148914fe423ada8983de1d8391da45ab322ccb23da5b772e8a94",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1512
+  },
+  {
+    "file": "photo_4_2026-11-17_17-17-10.jpg",
+    "sha256": "22d1dbc6d9f72289ba605bea0176c682f4a6258f71597f163aefe042ea063648",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1156
+  },
+  {
+    "file": "photo_5_2026-11-17_17-17-10.jpg",
+    "sha256": "2c4a5e6dee832ce2050a0293764771806fc0e3f7dfe619f45c3dafa4de2c473d",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1302
+  },
+  {
+    "file": "photo_6_2026-11-17_17-17-10.jpg",
+    "sha256": "8de11e071582e55bba578aead3de6d8378b00676df4e4ead965900a48d9b9e91",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1381
+  },
+  {
+    "file": "photo_7_2026-11-17_17-17-10.jpg",
+    "sha256": "6a1112b5d0c12abed91c38672e0a9abcb117786857beb7646e2f5ff53844a3ac",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 963
+  },
+  {
+    "file": "photo_8_2026-11-17_17-17-10.jpg",
+    "sha256": "1a8b018c35a5a7cf5198672ba6b259f937d3ff962a62094ed45c39349709861d",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1119
+  },
+  {
+    "file": "photo_9_2026-11-17_17-17-10.jpg",
+    "sha256": "162836b082735ec8d34ffe2f2c3dc495a30ef627dcca89d7c8c2a7a1d1c074d2",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 2664
+  },
+  {
+    "file": "photo_10_2026-11-17_17-17-10.jpg",
+    "sha256": "cad3a680be0574f094ab41abe22e4f97d7a4c236505b5018aa1864cf288ff8bc",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1033
+  },
+  {
+    "file": "photo_11_2026-11-17_17-17-10.jpg",
+    "sha256": "e99c039c61928cc2cf755b9607d54c7fb1e36a65abf0987fb804ac0500ba5d04",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1119
+  },
+  {
+    "file": "photo_12_2026-11-17_17-17-10.jpg",
+    "sha256": "0662e5107d86e8b27de55ea4f72b53ec1e696c9882a67b532fe77124021c838b",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 972
+  },
+  {
+    "file": "photo_13_2026-11-17_17-17-10.jpg",
+    "sha256": "96427ec766fbbf9c2e5ce2cd4156757545c63416bc21384fcaaa4a2f0ea04809",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1062
+  },
+  {
+    "file": "photo_14_2026-11-17_17-17-10.jpg",
+    "sha256": "b6a42d834c72ab9b13142efa1ef588ea8ded7a4532068904291018c8a9e0e404",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1297
+  },
+  {
+    "file": "photo_15_2026-11-17_17-17-10.jpg",
+    "sha256": "394e6a944d90ca24685be0852714cbee283bd94b71a14bb884d203e8cbe01083",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1150
+  },
+  {
+    "file": "photo_16_2026-11-17_17-17-10.jpg",
+    "sha256": "411ea4e3b31ab28dd4ca39d87e9b990ae5de1f89382d491786cbba920f5d37ed",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1386
+  },
+  {
+    "file": "photo_17_2026-11-17_17-17-10.jpg",
+    "sha256": "4b8807be084d1784b31ab443bd157df623df8046cfaef4f70b7c598c03ce97d0",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1657
+  },
+  {
+    "file": "photo_18_2026-11-17_17-17-10.jpg",
+    "sha256": "65939839c4d81774da20987a3bda7164d4de6b2b91e9a729e08acfc10b3d6d27",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1010
+  },
+  {
+    "file": "photo_19_2026-11-17_17-17-10.jpg",
+    "sha256": "22ccb5fef48e516274fac3d2b048feeb5e7a6d65dc56937621772508ae458610",
+    "ocrEngine": "PaddleOCR-VL-1.6",
+    "status": "processed",
+    "extractedCharacters": 1510
+  }
+]

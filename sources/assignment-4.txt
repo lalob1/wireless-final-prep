@@ -1,0 +1,1257 @@
+A telecom engineer observes that a smartphone uses 256-QAM near a base station but switches to a more robust modulation scheme when the signal quality gets worse.
+
+Why does the network make this change?
+
+2
+
+Question 1Answer
+
+a.
+Lower-order modulation makes symbols easier to distinguish under poor signal conditions.
+
+
+b.
+Lower-order modulation always carries more bits per symbol.
+
+
+c.
+Modulation changes are mainly used to reduce the phone's screen brightness.
+
+
+d.
+High-order modulation works better when noise increases.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Lower-order modulation makes symbols easier to distinguish under poor signal conditions.
+Question 2
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Students are using the university network to send messages, download files, and access websites. Match each situation with the correct OSI layer.
+
+Physical Layer
+
+Answer 1 Question 2
+A laptop sends data using radio waves through Wi-Fi.
+ 
+Data Link Layer
+
+Answer 2 Question 2
+A network device uses MAC addresses to deliver frames within a local network.
+ 
+Transport Layer
+
+Answer 3 Question 2
+A computer uses TCP to provide reliable data delivery.
+ 
+Network Layer
+
+Answer 4 Question 2
+A router uses IP addresses to forward packets to another network.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: Physical Layer → A laptop sends data using radio waves through Wi-Fi., Data Link Layer → A network device uses MAC addresses to deliver frames within a local network., Transport Layer → A computer uses TCP to provide reliable data delivery., Network Layer → A router uses IP addresses to forward packets to another network.
+Question 3
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A warehouse uses wireless sensors placed behind shelves and large metal objects. Some sensors still receive data through signals reflected from surrounding surfaces.
+
+Which statement best describes this situation?
+
+а
+
+Question 3Answer
+
+a.
+Reflected signals always arrive at exactly the same time as the direct signal.
+
+
+b.
+Reflected signals can provide alternative propagation paths, although they may also cause fading.
+
+
+c.
+Wireless communication always requires a direct line of sight.
+
+
+d.
+Metal objects increase the transmission power of every nearby wireless device.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Reflected signals can provide alternative propagation paths, although they may also cause fading.
+Question 4
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student opens the Wi-Fi settings on a laptop and sees several available networks without connecting to any of them.
+
+Which Wi-Fi management frame is periodically transmitted by access points to advertise their networks?
+
+cx
+
+Question 4Answer
+
+a.
+Deauthentication frame
+
+
+b.
+Association Request frame
+
+
+c.
+Beacon frame
+
+
+d.
+ACK frame
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Beacon frame
+Question 5
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why does a phone use a lower data rate at the edge of coverage?
+A student travels away from a cellular base station. The phone is still connected, but the received signal becomes weaker and the download speed decreases.
+
+Why might the network reduce its data rate?
+
+к
+
+Question 5Answer
+
+a.
+A weaker signal always provides more available bandwidth.
+
+
+b.
+Higher-order modulation automatically becomes more reliable with distance.
+
+
+c.
+The network may use a more robust modulation and coding scheme to reduce errors.
+
+
+d.
+The phone must change to analog communication when the signal weakens.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: The network may use a more robust modulation and coding scheme to reduce errors.
+Question 6
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+What happens when a phone moves?
+A student travels across the city using mobile Internet.
+
+Match each situation with the correct network concept.
+
+MIMO
+
+Answer 1 Question 6
+The phone uses multiple antennas to transmit or receive spatial data streams.
+ 
+Handoff
+
+Answer 2 Question 6
+The phone moves between cells while maintaining an active connection.
+ 
+Roaming
+
+Answer 3 Question 6
+The phone connects to a partner mobile operator while traveling abroad.
+ 
+Carrier Aggregation
+
+Answer 4 Question 6
+The phone uses several component carriers to increase available bandwidth.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: MIMO → The phone uses multiple antennas to transmit or receive spatial data streams., Handoff → The phone moves between cells while maintaining an active connection., Roaming → The phone connects to a partner mobile operator while traveling abroad., Carrier Aggregation → The phone uses several component carriers to increase available bandwidth.
+Question 7
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why is an upload slower than expected?
+A student uploads a 500 MB video using a mobile network. The speed test shows 100 Mbps download speed but only 20 Mbps upload speed.
+
+Assuming a constant effective upload throughput of 20 Mbps, approximately how long will the upload take, ignoring additional overhead?
+
+Question 7Answer
+
+a.
+25 seconds
+
+
+b.
+250 seconds
+
+
+c.
+40 seconds
+
+
+d.
+200 seconds
+
+Feedback
+Your answer is correct.
+
+The correct answer is: 200 seconds
+Question 8
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student is downloading a large file using a 5G connection. When the student moves farther from the base station, the signal quality decreases and the network switches to a more robust modulation scheme.
+
+Why is this useful?
+
+Question 8Answer
+
+a.
+Lower-order modulation allows the phone to receive more bits per symbol without increasing errors.
+
+
+b.
+Lower-order modulation always increases the maximum transmission speed
+
+
+c.
+Changing modulation removes the need for error detection and correction.
+
+
+d.
+More robust modulation improves reliability by making transmitted symbols easier to distinguish under poor signal conditions.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: More robust modulation improves reliability by making transmitted symbols easier to distinguish under poor signal conditions.
+Question 9
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A university wants to create a wireless connection between two buildings that are directly facing each other. The buildings are stationary, and the connection should be focused in one direction.
+
+Which antenna would be the most suitable?
+
+а
+
+Question 9Answer
+
+a.
+A general-purpose antenna selected without considering its radiation pattern.
+
+
+b.
+An omnidirectional antenna that distributes power around the building.
+
+
+c.
+An isotropic antenna that radiates equally in every direction in 3D space.
+
+
+d.
+A directional antenna aimed at the second building.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: A directional antenna aimed at the second building.
+Question 10
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why does the signal change near buildings?
+A student is walking between tall buildings while listening to music over mobile Internet. The signal strength keeps changing, even though the student is not moving far from the base station.
+
+What is the most likely explanation?
+
+а
+
+Question 10Answer
+
+a.
+The phone temporarily switches from wireless to wired communication.
+
+
+b.
+The base station stops transmitting whenever a user enters a narrow street.
+
+
+c.
+Radio signals reflect from buildings and reach the phone through different paths.
+
+
+d.
+The phone automatically changes its radio frequency every few seconds.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Radio signals reflect from buildings and reach the phone through different paths.
+Question 11
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why does my phone use 4G instead of 5G?
+A student buys a smartphone that supports 5G. However, the phone sometimes connects to LTE even though the mobile operator offers 5G services.
+
+Which explanation is the most reasonable?
+
+Question 11Answer
+
+a.
+The phone may use LTE when suitable 5G coverage, compatible bands, or network conditions are unavailable.
+
+
+b.
+A 5G smartphone must use LTE whenever the battery falls below 50%.
+
+
+c.
+The phone switches to LTE only when its processor cannot handle 5G data rates.
+
+
+d.
+A smartphone can connect to 5G only when it is near a Wi-Fi access point.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: The phone may use LTE when suitable 5G coverage, compatible bands, or network conditions are unavailable.
+Question 12
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why is a call interrupted when moving between cells?
+A student is on a phone call while traveling by bus. The bus moves from one cellular coverage area to another. The call suddenly disconnects.
+
+Which explanation is most technically reasonable?
+
+Question 12Answer
+
+a.
+The smartphone must restart its operating system whenever it changes base stations.
+
+
+b.
+The network automatically ends calls when a user moves faster than walking speed.
+
+
+c.
+The handoff may have failed because the target cell lacked sufficient radio resources or the signal conditions were poor.
+
+
+d.
+Every handoff requires the network to terminate an active voice call before establishing another one.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: The handoff may have failed because the target cell lacked sufficient radio resources or the signal conditions were poor.
+Question 13
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why can two phones show the same signal strength but different speeds?
+Two students stand in the same location using the same mobile operator. Both phones show strong LTE signal reception, but Phone A downloads files much faster than Phone B.
+
+Which explanation is the most reasonable?
+
+Question 13Answer
+
+a.
+Signal strength alone determines throughput, so a speed difference is technically impossible.
+
+
+b.
+Differences in supported MIMO configurations, carrier aggregation, modem capabilities, or radio conditions may affect throughput.
+
+
+c.
+Phones with identical signal strength must always have identical download speeds.
+
+
+d.
+Phone B must be connected to an analog network because its speed is lower.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Differences in supported MIMO configurations, carrier aggregation, modem capabilities, or radio conditions may affect throughput.
+Question 14
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why doesn't Wi-Fi always use RTS/CTS?
+A student studies Wireshark captures and notices that many Wi-Fi data frames are transmitted without an RTS/CTS exchange.
+
+What is the best explanation?
+
+Question 14Answer
+
+a.
+RTS/CTS is unnecessary because Wi-Fi devices can always detect collisions while transmitting.
+
+
+b.
+RTS/CTS is used only when transmitting Beacon frames.
+
+
+c.
+RTS/CTS is required only when a Wi-Fi network uses WPA3 encryption.
+
+
+d.
+RTS/CTS is optional and may be enabled depending on frame size, configuration, and network conditions.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: RTS/CTS is optional and may be enabled depending on frame size, configuration, and network conditions.
+Question 15
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student uses a 4G LTE smartphone to open a website. Data travels through the LTE network before reaching the Internet.
+
+Which LTE core network component provides connectivity to external packet data networks?
+
+r
+
+Question 15Answer
+
+a.
+HSS
+
+
+b.
+MME
+
+
+c.
+eNodeB
+
+
+d.
+P-GW
+
+Feedback
+Your answer is correct.
+
+The correct answer is: P-GW
+Question 16
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student connects to a WPA2-Personal Wi-Fi network. After association, the laptop and access point perform a 4-Way Handshake.
+
+What is the main purpose of this process?
+
+r
+
+Question 16Answer
+
+a.
+To establish and confirm keys for protected communication
+
+
+b.
+To assign an IP address
+
+
+c.
+To discover nearby access points
+
+
+d.
+To increase the Wi-Fi signal strength
+
+Feedback
+Your answer is correct.
+
+The correct answer is: To establish and confirm keys for protected communication
+Question 17
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student has a Wi-Fi router in the living room. The signal works well nearby but becomes weaker in a bedroom behind several walls.
+
+Which Wi-Fi frequency band would generally provide better coverage?
+
+r
+
+Question 17Answer
+
+a.
+6 GHz because it has more available channels
+
+
+b.
+5 GHz because it offers higher speeds
+
+
+c.
+All three bands provide identical coverage
+
+
+d.
+2.4 GHz because it generally penetrates walls better
+
+Feedback
+Your answer is correct.
+
+The correct answer is: 2.4 GHz because it generally penetrates walls better
+Question 18
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Which mobile network is being used?
+Four people are using mobile communication technologies from different generations.
+
+1G
+
+Answer 1 Question 18
+A person uses an old analog mobile phone mainly for voice calls.
+ 
+3G
+
+Answer 2 Question 18
+Someone uses a UMTS network for mobile Internet access.
+ 
+2G
+
+Answer 3 Question 18
+A student uses a GSM phone for digital calls and SMS.
+ 
+4G
+
+Answer 4 Question 18
+A student streams HD video using LTE.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: 1G → A person uses an old analog mobile phone mainly for voice calls., 3G → Someone uses a UMTS network for mobile Internet access., 2G → A student uses a GSM phone for digital calls and SMS., 4G → A student streams HD video using LTE.
+Question 19
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Which network design fits the situation?
+A university wants to create several types of wireless networks for different locations.
+
+ 
+Single-hop infrastructure-based
+
+Answer 1 Question 19
+Students connect their laptops through a central Wi-Fi access point in a classroom.
+ 
+Single-hop infrastructure-less
+
+Answer 2 Question 19
+Two laptops communicate directly over Wi-Fi without an access point.
+ 
+Multi-hop infrastructure-less
+
+Answer 3 Question 19
+Several devices forward data through neighboring devices without any central access point.
+ 
+Multi-hop infrastructure-based
+
+Answer 4 Question 19
+Wireless devices communicate through relay nodes connected to a network infrastructure.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: Single-hop infrastructure-based → Students connect their laptops through a central Wi-Fi access point in a classroom., Single-hop infrastructure-less → Two laptops communicate directly over Wi-Fi without an access point., Multi-hop infrastructure-less → Several devices forward data through neighboring devices without any central access point., Multi-hop infrastructure-based → Wireless devices communicate through relay nodes connected to a network infrastructure.
+Question 20
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A gaming room has many connected devices. The owner wants a router that supports 2.4 GHz, 5 GHz, and 6 GHz.
+
+Which router would best meet this requirement?
+
+q
+
+Question 20Answer
+
+a.
+Dual-band router
+
+
+b.
+Wired-only router
+
+
+c.
+Tri-band
+
+
+d.
+Single-band router
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Tri-band
+Question 21
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+What happens when you connect to Wi-Fi?
+A student arrives at university, opens a laptop, and connects to a protected Wi-Fi network.
+
+Match each action with the correct step in the connection process.
+
+4-Way Handshake
+
+Answer 1 Question 21
+The devices establish and confirm encryption keys before protected data transfer.
+ 
+Scanning / Beacon Discovery
+
+Answer 2 Question 21
+The laptop detects nearby networks by receiving advertisements from access points.
+ 
+802.11 Authentication
+
+Answer 3 Question 21
+The laptop and access point perform the initial 802.11 authentication exchange.
+ 
+Association
+
+Answer 4 Question 21
+The laptop requests to join the selected access point.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: 4-Way Handshake → The devices establish and confirm encryption keys before protected data transfer., Scanning / Beacon Discovery → The laptop detects nearby networks by receiving advertisements from access points., 802.11 Authentication → The laptop and access point perform the initial 802.11 authentication exchange., Association → The laptop requests to join the selected access point.
+Question 22
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A passenger is using a mobile phone while traveling in a high-speed train. As the train moves relative to a cellular base station, the received radio frequency may shift slightly.
+
+Which phenomenon explains this frequency change?
+
+а
+
+Question 22Answer
+
+a.
+Carrier aggregation
+
+
+b.
+Doppler effect
+
+
+c.
+Multipath fading
+
+
+d.
+Packet retransmission
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Doppler effect
+Question 23
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why does Wi-Fi become slower in a crowded classroom?
+Thirty students are connected to the same Wi-Fi access point. Everyone has a strong signal, but the Internet becomes slower when most students start watching videos.
+
+What is the most likely explanation?
+
+Question 23Answer
+
+a.
+The students share limited wireless airtime and network capacity, which reduces throughput per user.
+
+
+b.
+Wi-Fi devices must disconnect and reconnect whenever multiple users transmit data.
+
+
+c.
+The access point automatically reduces its radio frequency when many users connect.
+
+
+d.
+Strong signal reception forces the access point to use a slower modulation scheme.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: The students share limited wireless airtime and network capacity, which reduces throughput per user.
+Question 24
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student connects a laptop to a home Wi-Fi router, but the laptop shows "Connected, no Internet." Other devices have the same problem.
+
+Which router port should the student check first to investigate the connection to the Internet provider?
+
+f
+
+Question 24Answer
+
+a.
+USB port
+
+
+b.
+LAN port
+
+
+c.
+Power port
+
+
+d.
+WAN port
+
+Feedback
+Your answer is correct.
+
+The correct answer is: WAN port
+Question 25
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student opens an old Wi-Fi router and notices a green circuit board containing chips and copper tracks.
+
+Why is fiberglass commonly used as the base material of the circuit board?
+
+f
+
+Question 25Answer
+
+a.
+It provides strength, heat resistance, and electrical insulation
+
+
+b.
+It generates wireless signals
+
+
+c.
+It replaces all copper connections
+
+
+d.
+It processes incoming Internet packets
+
+Feedback
+Your answer is correct.
+
+The correct answer is: It provides strength, heat resistance, and electrical insulation
+Question 26
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student places a Wi-Fi router in the living room. The kitchen receives a good signal, but the bedroom behind several thick walls has an unreliable connection.
+
+What is the most reasonable technical explanation?
+
+к
+
+Question 26Answer
+
+a.
+The laptop's IP address becomes invalid when the user moves behind a wall.
+
+
+b.
+The router switches off unused radio channels when it detects obstacles.
+
+
+c.
+Wi-Fi routers automatically reduce their frequency when a device changes rooms.
+
+
+d.
+Walls can attenuate radio waves and reduce the received signal power.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Walls can attenuate radio waves and reduce the received signal power.
+Question 27
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why does my phone lose signal inside an elevator?
+A student is using mobile Internet outside a building. The connection works well, but it becomes much weaker after entering a metal elevator.
+
+What is the most likely reason?
+
+Question 27Answer
+
+a.
+The smartphone automatically switches to a lower mobile network generation whenever it detects metal.
+
+
+b.
+Mobile networks temporarily stop transmitting data when a user moves vertically.
+
+
+c.
+The base station reduces its transmission power because the user is inside a building.
+
+
+d.
+Metal surfaces reduce radio signal penetration and can strongly attenuate the received signal.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Metal surfaces reduce radio signal penetration and can strongly attenuate the received signal.
+Question 28
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+How do mobile operators serve many users?
+A telecommunications engineer is studying three ways to organize access to shared radio resources.
+
+ 
+Each user receives a different frequency channel for communication.
+
+Answer 1 Question 28
+FDMA
+ 
+Users share time and frequency resources but are distinguished by different codes.
+
+Answer 2 Question 28
+CDMA
+ 
+Users share the same frequency channel but transmit at different times.
+
+Answer 3 Question 28
+TDMA
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: Each user receives a different frequency channel for communication. → FDMA, Users share time and frequency resources but are distinguished by different codes. → CDMA, Users share the same frequency channel but transmit at different times. → TDMA
+Question 29
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why is my Internet not working properly?
+
+Four students are experiencing different wireless problems. Match each situation with the most likely technical explanation.
+
+Interference
+
+Answer 1 Question 29
+Two nearby Wi-Fi networks use overlapping channels, causing communication problems.
+ 
+Network congestion
+
+Answer 2 Question 29
+Hundreds of students connect to the same Wi-Fi network, and everyone's speed decreases.
+ 
+Path loss
+
+Answer 3 Question 29
+A student walks far away from the Wi-Fi router, and the signal gradually becomes weaker.
+ 
+Multipath propagation
+
+Answer 4 Question 29
+A student uses Wi-Fi in a building where signals reflect off walls and arrive through different paths.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: Interference → Two nearby Wi-Fi networks use overlapping channels, causing communication problems., Network congestion → Hundreds of students connect to the same Wi-Fi network, and everyone's speed decreases., Path loss → A student walks far away from the Wi-Fi router, and the signal gradually becomes weaker., Multipath propagation → A student uses Wi-Fi in a building where signals reflect off walls and arrive through different paths.
+Question 30
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+What is happening inside the mobile network?
+A student makes a call using an LTE network. Different network components perform different tasks.
+
+ 
+S-GW
+
+Answer 1 Question 30
+User data packets are forwarded through the LTE core network.
+ 
+eNodeB
+
+Answer 2 Question 30
+The phone communicates with the network through the radio interface.
+ 
+MME
+
+Answer 3 Question 30
+The network handles mobility management and control signaling
+ 
+HSS
+
+Answer 4 Question 30
+The network retrieves subscriber information for authentication
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: S-GW → User data packets are forwarded through the LTE core network., eNodeB → The phone communicates with the network through the radio interface., MME → The network handles mobility management and control signaling, HSS → The network retrieves subscriber information for authentication
+Question 31
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A telecommunications engineer manages several base stations in a 2G GSM network.
+
+Which network component controls these base stations and manages their radio resources?
+
+r
+
+Question 31Answer
+
+a.
+HLR
+
+
+b.
+BSC
+
+
+c.
+MSC
+
+
+d.
+GMSC
+
+Feedback
+Your answer is correct.
+
+The correct answer is: BSC
+Question 32
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Two students are sitting at opposite ends of a large classroom. Both laptops can communicate with the same Wi-Fi access point, but the laptops cannot reliably detect each other's transmissions.
+
+What problem may occur when both devices transmit at the same time?
+
+к
+
+Question 32Answer
+
+a.
+Handoff failure
+
+
+b.
+IP routing loop
+
+
+c.
+Hidden terminal problem
+
+
+d.
+Bluetooth pairing failure
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Hidden terminal problem
+Question 33
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student studies a 3G UMTS network. Several Node B base stations are connected to one network component.
+
+Which component manages radio resources and helps coordinate handovers between cells?
+
+e
+
+Question 33Answer
+
+a.
+MSC
+
+
+b.
+GGSN
+
+
+c.
+RNC
+
+
+d.
+HLR
+
+Feedback
+Your answer is correct.
+
+The correct answer is: RNC
+Question 34
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student stands behind a large concrete building, with no direct line of sight to a cellular tower. However, the phone still receives a usable signal that bends around the building's edge.
+
+Which propagation phenomenon best explains this?
+
+Question 34Answer
+
+a.
+Doppler shift
+
+
+b.
+Reflection
+
+
+c.
+Frequency modulation
+
+
+d.
+Diffraction
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Diffraction
+Question 35
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Which Bluetooth technology is suitable?
+Four students use Bluetooth devices for different purposes.
+
+Bluetooth Classic
+
+Answer 1 Question 35
+A student listens to music using traditional Bluetooth headphones
+ 
+Bluetooth Low Energy
+
+Answer 2 Question 35
+A fitness tracker sends small amounts of sensor data while saving battery power.
+ 
+Pairing
+
+Answer 3 Question 35
+Two devices establish a trusted connection and exchange security information for the first time.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: Bluetooth Classic → A student listens to music using traditional Bluetooth headphones, Bluetooth Low Energy → A fitness tracker sends small amounts of sensor data while saving battery power., Pairing → Two devices establish a trusted connection and exchange security information for the first time.
+Question 36
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why is the Internet faster near a base station?
+
+A student notices that mobile Internet usually works faster near a base station than at the edge of its coverage area.
+
+Assuming the same network load and available bandwidth, what is the most likely reason?
+
+Question 36Answer
+
+a.
+The network disables error correction for every device located near the base station.
+
+
+b.
+Better signal quality may allow the network to use a higher modulation and coding scheme, increasing throughput.
+
+
+c.
+Smartphones use a higher radio frequency whenever they approach the base station.
+
+
+d.
+The base station automatically gives users closer to it unlimited bandwidth.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: Better signal quality may allow the network to use a higher modulation and coding scheme, increasing throughput.
+Question 37
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+A student compares Wi-Fi 4, Wi-Fi 5, and Wi-Fi 6 routers in an electronics store.
+
+Which IEEE standard corresponds to Wi-Fi 6?
+
+f
+
+Question 37Answer
+
+a.
+IEEE 802.11n
+
+
+b.
+IEEE 802.11ac
+
+
+c.
+IEEE 802.11ax
+
+
+d.
+IEEE 802.11be
+
+Feedback
+Your answer is correct.
+
+The correct answer is: IEEE 802.11ax
+Question 38
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why do different phones perform differently?
+Two students compare their smartphones while downloading files, gaming, and making calls.
+
+CPU
+
+Answer 1 Question 38
+One phone performs demanding applications faster because it has a more powerful processing unit.
+ 
+RAM
+
+Answer 2 Question 38
+A phone keeps more applications active without frequently reloading them
+ 
+MIMO
+
+Answer 3 Question 38
+A phone can achieve higher wireless throughput using several spatial data streams.
+ 
+Feedback
+Your answer is correct.
+
+The correct answer is: CPU → One phone performs demanding applications faster because it has a more powerful processing unit., RAM → A phone keeps more applications active without frequently reloading them, MIMO → A phone can achieve higher wireless throughput using several spatial data streams.
+Question 39
+Correct
+Mark 2.50 out of 2.50
+Flag question
+Question text
+Why do Bluetooth headphones connect faster the second time?
+A student pairs Bluetooth headphones with a laptop for the first time. The next day, the headphones reconnect much faster.
+
+Why might this happen?
+
+Question 39Answer
+
+a.
+The headphones permanently increase their transmission power after the first connection.
+
+
+b.
+The devices can reuse stored bonding information instead of repeating the complete initial pairing procedure.
+
+
+c.
+The laptop automatically changes the Bluetooth frequency band after pairing.
+
+
+d.
+The devices no longer need authentication because previously paired devices communicate without security.
+
+Feedback
+Your answer is correct.
+
+The correct answer is: The devices can reuse stored bonding information instead of repeating the complete initial pairing procedure.
+Question 40
+Incorrect
+Mark 0.00 out of 2.50
+Flag question
+Question text
+A student is watching a video using 2.4 GHz Wi-Fi. When someone turns on a microwave oven in the kitchen, the video starts buffering. The connection improves after the microwave is switched off.
+
+What is the most likely cause?
+
+к
+
+Question 40Answer
+
+a.
+The router switches to Bluetooth while the microwave is operating.
+
+
+b.
+Electromagnetic interference affects communication in the 2.4 GHz band.
+
+
+c.
+The oven changes the router's IP address.
+
+
+d.
+The microwave forces the router to use a different network protocol.
+
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Electromagnetic interference affects communication in the 2.4 GHz band.
