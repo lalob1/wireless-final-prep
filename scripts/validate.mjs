@@ -21,6 +21,18 @@ assert.equal(bank.questions.filter(q=>q.source==='Midterm Variant 1').length,25)
 assert.equal(bank.questions.filter(q=>q.source==='Midterm Variant 2').length,23);
 assert.equal(bank.questions.filter(q=>q.source==='Assignment 4').length,67);
 assert.equal(bank.questions.filter(q=>q.source==='Last practice').length,7);
+const real = bank.questions.filter(q => q.source === 'Real final');
+assert.equal(real.length, 25);
+assert.equal(bank.coverage.realExamQuestions, real.length);
+assert.equal(real.reduce((count, q) => count + Number(q.selectionCount === 2), 0), 7);
+for (const [index, q] of real.entries()) {
+ const number = index + 1;
+ assert.equal(q.id, `real-${String(number).padStart(2, '0')}`);
+ assert.equal(q.sourceNumber, String(number));
+ assert.equal(q.choices.length, 4);
+ assert.equal(q.sourceRef, `Real final · ${number}`);
+ assert.equal(q.sourceFile, `photo_${number <= 13 ? 1 : 2}_2026-11-18_09-55-34.jpg`);
+}
 assert.equal(JSON.parse(fs.readFileSync(path.join(root,'sources/ocr-manifest.json'))).length,19);
 validatePastPaperReview(bank,root);
 // Regression: an incorrect single answer can be replaced after grading.
@@ -54,4 +66,4 @@ function scan(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
  }
 }}
 scan(root);
-console.log(`Validated ${bank.questions.length} items, 48 transcript mappings and reviewed keys, evidence metadata, 19 OCR inputs, model answer editing, exact-set grading, 25-question mock scoring and 11 past-paper calculations. Photo fidelity and technical correctness require source review; UI behavior requires browser testing.`);
+console.log(`Validated ${bank.questions.length} items, 48 midterm transcript mappings and reviewed keys, 25 real-final questions, evidence metadata, 19 OCR inputs, model answer editing, exact-set grading, 25-question mock scoring and 11 past-paper calculations. Photo fidelity and technical correctness require source review; UI behavior requires browser testing.`);

@@ -1,6 +1,6 @@
 # Wireless Final Prep
 
-A shared study site for the 25-question Wireless final. Practice, browse the entire question bank, save questions, or take a mixed 25-question mock exam.
+A shared study site for the 25-question Wireless final. Practice, browse the entire question bank, save questions, work through the photographed final in the [real section](https://lalob1.github.io/wireless-final-prep/#real), or take a mixed 25-question mock exam.
 
 **Live site:** https://lalob1.github.io/wireless-final-prep/
 
@@ -12,15 +12,16 @@ A shared study site for the 25-question Wireless final. Practice, browse the ent
 | Midterm Variant 2 | Questions 1–15 and 18–25 | 23 |
 | Assignment 4 | 40 questions, including matching tasks | 67 |
 | Last practice | Seven calculation tasks | 7 |
-| Total | 95 source questions/tasks | 122 |
+| Real final | Questions 1–25 | 25 |
+| Total | 120 source questions/tasks | 147 |
 
-All 19 supplied photos were processed with PaddleOCR-VL-1.6 through its MCP server. Overlapping photos were merged within each variant. Repeated question positions across variants are retained. Handwritten selections were not accepted as an answer key. Student names, student headers and original photos are not published.
+The 19 photos from the initial import were processed with PaddleOCR-VL-1.6 through its MCP server. Overlapping photos were merged within each variant. Repeated question positions across variants are retained. Handwritten selections were not accepted as an answer key. Student names, student headers and original photos are not published.
 
-Variant 2 questions 16–17 are missing from the supplied photos. No separate endterm-labeled paper was identified among the supplied files. This is a preparation bank built from supplied material, not a guarantee of the final examination questions.
+Variant 2 questions 16–17 are missing from the supplied photos. The real section contains the 25 questions from two photos labeled “FINAL EXAM,” in their original order with all four options, one- or two-answer selection, and worked explanations.
 
 Assignment 4 keys come from the file’s answer feedback. Past-paper keys and calculations are prepared solutions and are labeled accordingly. Four broad questions about fading/interference include review notes. Original two-answer questions remain multi-select, with exact-set grading. Matching pairs and open calculations are adapted to MCQ form.
 
-The [past-paper answer review](sources/answer-review.md) documents all 48 prepared keys, the 11 independently calculated numerical answers, and primary technical evidence. All original prompts, choices, answer indexes and source mappings are preserved. The current review could not access the original photos, so transcription fidelity remains **unverified for all 48 entries**. The 19 processed-photo records describe the initial OCR import, not a new visual verification. Variant 2 questions 16–17 and separate endterm material still require source files.
+The [past-paper answer review](sources/answer-review.md) documents all 48 prepared keys, the 11 independently calculated numerical answers, and primary technical evidence. All original prompts, choices, answer indexes and source mappings are preserved. The current review could not access the original photos, so transcription fidelity remains **unverified for all 48 entries**. The 19 processed-photo records describe the initial OCR import, not a new visual verification. Variant 2 questions 16–17 remain missing.
 
 ## Study behavior
 

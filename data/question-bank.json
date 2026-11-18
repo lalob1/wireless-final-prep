@@ -2,14 +2,14 @@
   "version": 1,
   "title": "Wireless Final Prep",
   "examQuestionCount": 25,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "coverage": {
     "photosProcessed": 19,
     "originalPhotoQuestions": 48,
     "assignmentOriginalQuestions": 40,
     "assignmentPracticeItems": 67,
     "calculationTasks": 7,
-    "practiceItems": 122,
+    "practiceItems": 147,
     "missing": [
       "Midterm Variant 2 questions 16 and 17 are absent from the supplied photos.",
       "No separate endterm-labeled question paper was identified among the supplied files."
@@ -21,7 +21,8 @@
       "Past-paper answer keys are worked answers, not an official marking scheme.",
       "Photo overlap is merged within each variant; repeated questions across variants keep their original source positions.",
       "The 48 past-paper keys have a conceptual review with primary-source links; original-photo fidelity remains unverified in this review."
-    ]
+    ],
+    "realExamQuestions": 25
   },
   "questions": [
     {
@@ -3384,6 +3385,659 @@
       "selectionCount": 1,
       "needsReview": false,
       "sourceRef": "Last practice · C2"
+    },
+    {
+      "id": "real-01",
+      "source": "Real final",
+      "sourceNumber": "1",
+      "prompt": "In an infrastructure Wi-Fi network, which forwarding function is normally performed by the access point?",
+      "choices": [
+        "It forwards station frames only after obtaining an IP lease for each station.",
+        "It forwards station frames only to stations within the same BSS.",
+        "It forwards station frames to the distribution system only after DNS resolution.",
+        "It forwards station frames to the distribution system when needed."
+      ],
+      "answers": [
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The access point bridges traffic between its wireless stations and the distribution system when the destination requires it. Forwarding works at the link layer.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 1",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-02",
+      "source": "Real final",
+      "sourceNumber": "2",
+      "prompt": "During Bluetooth Low Energy discovery, what does a peripheral typically do before a connection is established?",
+      "choices": [
+        "It sends scan requests to every nearby device instead of advertising.",
+        "It transmits advertising packets that a scanning device can detect.",
+        "It transmits connection data packets before sending advertising packets.",
+        "It waits for a scanner to assign an IP address before advertising."
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The peripheral broadcasts advertising packets. A scanning device can detect those packets and initiate a connection when the advertisement is connectable.",
+      "topic": "Bluetooth",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 2",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "Bluetooth SIG: Bluetooth Low Energy primer",
+          "url": "https://www.bluetooth.com/bluetooth-le-primer/"
+        }
+      ]
+    },
+    {
+      "id": "real-03",
+      "source": "Real final",
+      "sourceNumber": "3",
+      "prompt": "When a moving phone performs an inter-cell handover, what is normally changed?",
+      "choices": [
+        "The subscriber identity changes while the radio connection is maintained.",
+        "The serving radio connection changes only after the call is terminated.",
+        "The serving radio connection changes while the service is maintained.",
+        "The IP application changes while the serving radio connection remains fixed."
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The network transfers the active radio connection to a different serving cell so the ongoing service can continue.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 3",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-04",
+      "source": "Real final",
+      "sourceNumber": "4",
+      "prompt": "Which information is most directly used by a SIM/eSIM for cellular subscriber authentication?",
+      "choices": [
+        "Subscriber identity and authentication credentials stored in the SIM profile.",
+        "Subscriber identity and a list of nearby Wi-Fi access-point passwords.",
+        "Device IP address and radio measurements stored in the SIM profile.",
+        "Device antenna calibration data and the cellular frequency reuse plan."
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The SIM profile stores the subscriber identity and the credentials needed to respond to the cellular network’s authentication challenge.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 4",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-05",
+      "source": "Real final",
+      "sourceNumber": "5",
+      "prompt": "Compared with a GEO satellite, a typical LEO satellite generally has which combination of characteristics?",
+      "choices": [
+        "Higher propagation delay and a fixed position above one ground location.",
+        "Higher propagation delay and movement relative to a ground observer.",
+        "Lower propagation delay and a fixed position above one ground location.",
+        "Lower propagation delay and movement relative to a ground observer."
+      ],
+      "answers": [
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "LEO satellites orbit much closer to Earth, shortening the radio path. They move across the sky relative to a ground observer.",
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 5",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-06",
+      "source": "Real final",
+      "sourceNumber": "6",
+      "prompt": "A Wi-Fi station is associated, but receives no IPv4 lease. Which should be checked first?",
+      "choices": [
+        "DNS query exchange and resolver reachability",
+        "TCP connection setup with a remote website",
+        "DHCP message exchange and server reachability",
+        "ARP resolution of a remote website address"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "DHCP supplies the IPv4 lease. Check whether the station’s DHCP messages reach the server and whether the server’s replies get back to the station.",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 6",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-07",
+      "source": "Real final",
+      "sourceNumber": "7",
+      "prompt": "Which TWO statements explain Wi-Fi collision-avoidance limitations?",
+      "choices": [
+        "A beacon grants an exclusive channel to every associated station",
+        "Hidden stations may not sense one another before transmitting",
+        "A Wi-Fi transmitter normally cannot detect a collision while sending",
+        "Association ensures only one station can transmit at a time"
+      ],
+      "answers": [
+        1,
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Hidden stations can transmit simultaneously because they cannot hear each other. A Wi-Fi transmitter generally infers delivery failure from a missing acknowledgement.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 7",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "Cisco: 802.11 frame types and RTS/CTS",
+          "url": "https://www.cisco.com/c/en/us/support/docs/wireless-mobility/80211/200527-Fundamentals-of-802-11-Wireless-Sniffing.html"
+        }
+      ]
+    },
+    {
+      "id": "real-08",
+      "source": "Real final",
+      "sourceNumber": "8",
+      "prompt": "A frame is forwarded using MAC addresses on a local WLAN. Which OSI layer is primarily involved?",
+      "choices": [
+        "Transport layer; segments and port addressing",
+        "Data Link layer; frames and link-layer addressing",
+        "Physical layer; bits and signal propagation",
+        "Network layer; packets and logical addressing"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The Data Link layer uses MAC addresses to deliver frames over links and through Layer 2 forwarding devices.",
+      "topic": "OSI & protocols",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 8",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-09",
+      "source": "Real final",
+      "sourceNumber": "9",
+      "prompt": "In a GSM (2G) radio access network, the BSC mainly:",
+      "choices": [
+        "connects packet data directly to external IP networks",
+        "performs the same radio-transmission role as each BTS",
+        "manages multiple BTSs and their radio resources",
+        "stores permanent subscriber profiles as the HLR does"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The base station controller coordinates multiple base transceiver stations and manages resources such as radio channels and handovers.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 9",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-10",
+      "source": "Real final",
+      "sourceNumber": "10",
+      "prompt": "In a UMTS (3G) network, which pairing is correct?",
+      "choices": [
+        "Node B: radio transmission; RNC: radio resource control",
+        "Node B: radio resource control; RNC: handset radio transmission",
+        "Node B: subscriber database; RNC: packet gateway",
+        "Node B: circuit switching; RNC: external IP gateway"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Node B provides the radio interface to the handset. The Radio Network Controller coordinates Node Bs and manages radio resources.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 10",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "3GPP TS 25.401: UTRAN overview",
+          "url": "https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/19.00.00_60/ts_125401v190000p.pdf"
+        }
+      ]
+    },
+    {
+      "id": "real-11",
+      "source": "Real final",
+      "sourceNumber": "11",
+      "prompt": "Which comparison between GSM/2G and LTE/4G is most accurate?",
+      "choices": [
+        "LTE uses an all-IP packet core; classic GSM voice is circuit-switched",
+        "Both require an RNC between the base station and the core",
+        "LTE uses a circuit-switched core; classic GSM voice is packet-switched",
+        "Both have identical packet-only core architectures"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "LTE’s Evolved Packet Core transports service traffic as packets. Classic GSM voice reserves a circuit-switched connection for the call.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 11",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-12",
+      "source": "Real final",
+      "sourceNumber": "12",
+      "prompt": "In Bluetooth discovery and connection, which statement is most accurate?",
+      "choices": [
+        "Pairing must finish before any nearby device can be discovered",
+        "Advertising alone always completes authentication and pairing",
+        "Discovery identifies nearby devices before connection procedures",
+        "Encryption starts before a connection exists in every Bluetooth mode"
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Discovery identifies available devices. In Bluetooth LE, the scanner can use a connectable advertisement to initiate the connection, with pairing performed later when needed.",
+      "topic": "Bluetooth",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 12",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "Bluetooth SIG: Bluetooth Low Energy primer",
+          "url": "https://www.bluetooth.com/bluetooth-le-primer/"
+        }
+      ]
+    },
+    {
+      "id": "real-13",
+      "source": "Real final",
+      "sourceNumber": "13",
+      "prompt": "Why may a metal smartphone case require careful antenna design?",
+      "choices": [
+        "Conductive material can alter antenna tuning and radiation",
+        "Case material determines the cellular generation supported",
+        "Case material changes the SIM authentication algorithm",
+        "Conductive material always boosts received signal at all frequencies"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_1_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Conductive material near an antenna changes its electromagnetic environment, which can shift its resonant frequency and reshape its radiation pattern.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 13",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-14",
+      "source": "Real final",
+      "sourceNumber": "14",
+      "prompt": "Compared with SISO, MIMO can improve wireless links mainly by:",
+      "choices": [
+        "using extra antennas to guarantee equal SINR for all users",
+        "using multiple antennas for spatial streams and/or diversity",
+        "using multiple channels to avoid all multipath propagation",
+        "using more antennas to remove the need for coding"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Multiple antennas can carry parallel spatial streams to increase throughput, provide diversity to combat fading, or support a combination of the two.",
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 14",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-15",
+      "source": "Real final",
+      "sourceNumber": "15",
+      "prompt": "Which TWO statements about frequency reuse are correct?",
+      "choices": [
+        "Reuse requires every cell to have a globally unique frequency band",
+        "Reuse can introduce co-channel interference between cells",
+        "Reuse ensures equal signal-to-interference ratios in adjacent cells",
+        "Reusing channels in separated cells improves spectral efficiency"
+      ],
+      "answers": [
+        1,
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Reuse lets multiple cells carry traffic on the same frequencies. Signals from cells using the same channels can interfere when they reach the same receiver.",
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 15",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-16",
+      "source": "Real final",
+      "sourceNumber": "16",
+      "prompt": "A phone supports both carrier aggregation (CA) and MIMO spatial multiplexing. Which comparison is accurate?",
+      "choices": [
+        "CA creates parallel spatial streams over antennas; MIMO combines bandwidth from separate component carriers.",
+        "CA combines component carriers; MIMO requires only one spatial stream and therefore cannot increase multiplexing capacity.",
+        "CA combines bandwidth across component carriers; MIMO uses parallel spatial streams on the same time-frequency resources.",
+        "CA combines spatial streams across antennas; MIMO increases bandwidth by adding separate component carriers."
+      ],
+      "answers": [
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Carrier aggregation extends usable bandwidth across multiple carriers. MIMO spatial multiplexing carries separate streams simultaneously on shared time-frequency resources.",
+      "topic": "Radio & propagation",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 16",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "3GPP TS 36.300: LTE radio access and carrier aggregation",
+          "url": "https://www.etsi.org/deliver/etsi_ts/136300_136399/136300/16.07.00_60/ts_136300v160700p.pdf"
+        }
+      ]
+    },
+    {
+      "id": "real-17",
+      "source": "Real final",
+      "sourceNumber": "17",
+      "prompt": "A phone repeatedly switches between two cells near their boundary. Which TWO settings can reduce unnecessary ping-pong handovers?",
+      "choices": [
+        "Use a time-to-trigger so a target-cell advantage persists before handover.",
+        "Shorten the time-to-trigger to react to brief target-cell signal peaks.",
+        "Remove the hysteresis margin so small signal changes trigger handover.",
+        "Use an appropriate hysteresis margin in the handover decision."
+      ],
+      "answers": [
+        0,
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Time-to-trigger requires a sustained advantage. Hysteresis requires a sufficient signal margin, so brief or small fluctuations are less likely to cause a handover.",
+      "topic": "Cellular & network design",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 17",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-18",
+      "source": "Real final",
+      "sourceNumber": "18",
+      "prompt": "Two Wi-Fi clients hear the AP but not one another. Which TWO statements hold?",
+      "choices": [
+        "RTS/CTS may help reduce collisions",
+        "This is a hidden-terminal situation",
+        "A stronger AP beacon always resolves the issue",
+        "CSMA/CA guarantees collisions cannot occur"
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The clients are hidden from each other. A CTS from the AP can tell the other client to defer while the requesting client transmits.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 18",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "Cisco: 802.11 frame types and RTS/CTS",
+          "url": "https://www.cisco.com/c/en/us/support/docs/wireless-mobility/80211/200527-Fundamentals-of-802-11-Wireless-Sniffing.html"
+        }
+      ]
+    },
+    {
+      "id": "real-19",
+      "source": "Real final",
+      "sourceNumber": "19",
+      "prompt": "A 5G scheduler serves high-SNR A and low-SNR B. Which is most appropriate?",
+      "choices": [
+        "Select the same robust MCS for A and B regardless of SNR",
+        "Select the highest-rate MCS for A and B regardless of SNR",
+        "Select each MCS only from the user's distance, not channel quality",
+        "Select higher-rate MCS for A and more robust MCS for B"
+      ],
+      "answers": [
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The scheduler can use a higher-rate modulation and coding scheme for A. A more robust scheme helps B decode data reliably at lower SNR.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 19",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-20",
+      "source": "Real final",
+      "sourceNumber": "20",
+      "prompt": "For 4×4 MIMO, which TWO statements can be correct?",
+      "choices": [
+        "Independent spatial streams can increase throughput",
+        "Multiple antennas completely eliminate interference",
+        "Antenna diversity can reduce sensitivity to fading",
+        "Exactly four times SISO throughput is guaranteed"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Spatial multiplexing can increase throughput when the channel can separate the streams. Diversity uses multiple propagation paths to reduce the impact of fading.",
+      "topic": "Radio & propagation",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 20",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-21",
+      "source": "Real final",
+      "sourceNumber": "21",
+      "prompt": "For a 3G UMTS phone opening a webpage, which simplified data path is correct?",
+      "choices": [
+        "UE → Node B → RNC → SGSN → GGSN → IP network",
+        "UE → Node B → RNC → MSC → PSTN",
+        "UE → Node B → MSC → HLR → IP network",
+        "UE → RNC → Node B → GGSN → IP network"
+      ],
+      "answers": [
+        0
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "The packet-data path passes through Node B and the RNC to the SGSN. The GGSN connects the mobile packet core to the external IP network.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 21",
+      "transcriptionStatus": "Checked against the supplied final exam photo",
+      "evidence": [
+        {
+          "title": "3GPP TS 25.401: UTRAN overview",
+          "url": "https://www.etsi.org/deliver/etsi_ts/125400_125499/125401/19.00.00_60/ts_125401v190000p.pdf"
+        },
+        {
+          "title": "3GPP TS 23.060: UMTS packet-data path",
+          "url": "https://www.etsi.org/deliver/etsi_ts/123000_123099/123060/07.09.00_60/ts_123060v070900p.pdf"
+        }
+      ]
+    },
+    {
+      "id": "real-22",
+      "source": "Real final",
+      "sourceNumber": "22",
+      "prompt": "A base station steers its signal toward a user using beamforming. It mainly:",
+      "choices": [
+        "increases all antenna powers equally to remove multipath",
+        "adjusts antenna weights to shape the directional radio pattern",
+        "changes IP routes so the radio link experiences less attenuation",
+        "adjusts carrier frequency to remove all other-cell interference"
+      ],
+      "answers": [
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Beamforming adjusts the relative phase and amplitude across antenna elements so their signals reinforce one another in the desired direction.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 22",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-23",
+      "source": "Real final",
+      "sourceNumber": "23",
+      "prompt": "Every base station in a dense network doubles power. Why might edge SINR barely change?",
+      "choices": [
+        "Thermal noise necessarily rises in direct proportion to transmit power",
+        "Desired signal increases but co-channel interference stays fixed",
+        "Frequency reuse disappears when all transmitters increase power",
+        "Desired signal and co-channel interference may rise together"
+      ],
+      "answers": [
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "SINR is desired signal power divided by interference plus noise. When interference dominates, scaling the desired signal and interference by the same amount barely changes the ratio.",
+      "topic": "Cellular & network design",
+      "selectionCount": 1,
+      "needsReview": false,
+      "sourceRef": "Real final · 23",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-24",
+      "source": "Real final",
+      "sourceNumber": "24",
+      "prompt": "For continuous service from a LEO constellation, which TWO are important?",
+      "choices": [
+        "Low altitude makes Doppler shift exactly zero",
+        "One LEO satellite always covers all of Earth continuously",
+        "Satellite motion can require handovers or tracking",
+        "Constellation coverage geometry affects continuity"
+      ],
+      "answers": [
+        2,
+        3
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "As satellites move, a link may need tracking or a handover to another satellite. Continuous service depends on where and when the constellation places satellites in view.",
+      "topic": "Radio & propagation",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 24",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
+    },
+    {
+      "id": "real-25",
+      "source": "Real final",
+      "sourceNumber": "25",
+      "prompt": "A station sees AP beacons, associates, but fails the WPA2 four-way handshake. Which TWO are correct?",
+      "choices": [
+        "Wrong credentials can prevent successful key establishment",
+        "Beacon reception and association do not prove key establishment",
+        "Association means encrypted data traffic must already be operational",
+        "Beacon frames prove the station has received an IP address"
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "answerStatus": "Worked answer",
+      "sourceFile": "photo_2_2026-11-18_09-55-34.jpg",
+      "type": "original-mcq",
+      "explanation": "Association precedes the WPA2 four-way handshake. A wrong password in WPA2-Personal can cause a key mismatch and prevent the handshake from completing.",
+      "topic": "Wi-Fi & hardware",
+      "selectionCount": 2,
+      "needsReview": false,
+      "sourceRef": "Real final · 25",
+      "transcriptionStatus": "Checked against the supplied final exam photo"
     }
   ]
 }
